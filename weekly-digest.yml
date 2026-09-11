@@ -23,14 +23,13 @@ jobs:
       - run: pip install feedparser requests pyyaml
 
       - name: Build digest
-        run: |
-          cd $GITHUB_WORKSPACE
-          python digest.py
+        run: python digest.py
 
       - name: Commit and push digest files
         run: |
           git config user.name "paper-bot"
           git config user.email "paper-bot@users.noreply.github.com"
+          mkdir -p docs/digests
           git add docs/digests/ docs/digests.json seen.json
           git commit -m "digest: $(date +%Y-%m-%d)" || echo "nothing to commit"
           git push
