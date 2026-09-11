@@ -1,0 +1,69 @@
+# ============================================================
+#  Paper digest configuration — edit this file, not the code.
+# ============================================================
+
+days_back: 7          # size of the search window (one week)
+min_score: 3          # papers scoring below this are dropped
+max_per_topic: 15     # cap so one busy topic doesn't flood the email
+contact_email: paher@vols.utk.edu   # Crossref asks for a contact (polite API pool)
+
+# arXiv categories to scan (cross-listed papers are de-duplicated)
+arxiv_categories:
+  - cond-mat.supr-con
+  - cond-mat.mes-hall
+  - cond-mat.mtrl-sci
+
+# Journals pulled from Crossref, by ISSN
+journals:
+  Physical Review Letters: 0031-9007
+  Physical Review B: 2469-9950
+  Physical Review Applied: 2331-7019
+  Physical Review Materials: 2475-9953
+  Nature Physics: 1745-2473
+  Nature Communications: 2041-1723
+  Nano Letters: 1530-6984
+
+# Topics -> {keyword: weight}. Matching is case-insensitive substring,
+# so short stems work ("nbse" catches NbSe2 and NbSe₂).
+# A keyword found in the TITLE counts double.
+topics:
+  Superconducting diode effect:
+    superconducting diode: 5
+    josephson diode: 5
+    nonreciprocal: 3
+    diode effect: 3
+    magnetochiral: 2
+
+  Majorana / SC-semiconductor hybrids:
+    majorana: 4
+    topological superconduct: 3
+    inas: 2
+    planar josephson: 3
+    selective area: 3
+    shadow: 1
+    proximit: 2          # proximity / proximitized
+    andreev: 2
+
+  β-Sn and MBE superconductors:
+    β-sn: 5
+    beta-sn: 5
+    tin film: 3
+    molecular beam epitaxy: 1
+    epitaxial superconduct: 3
+
+  NbSe2 / intercalated TMDs:
+    nbse: 3
+    intercalat: 2
+    ising superconduct: 3
+
+  PNR / YIG-Pt interfaces:
+    polarized neutron reflectometry: 5
+    neutron reflectometry: 4
+    yig: 3
+    spin seebeck: 3
+    spin hall magnetoresistance: 3
+
+# Any paper by these authors gets +5 under "Watched authors"
+watch_authors:
+  - Joon Sue Lee
+  # - add groups you follow here
