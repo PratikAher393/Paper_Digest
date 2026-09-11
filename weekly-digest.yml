@@ -23,7 +23,7 @@ jobs:
       - run: pip install feedparser requests pyyaml
 
       - name: Build digest
-         run: |
+        run: |
           cd $GITHUB_WORKSPACE
           python digest.py
 
