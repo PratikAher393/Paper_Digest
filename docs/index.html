@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Digest Archive</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: #fafafa;
+            color: #333;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+        header h1 { font-size: 28px; margin-bottom: 8px; }
+        header p { font-size: 14px; opacity: 0.9; }
+        
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        .controls input,
+        .controls select {
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .controls input { flex: 1; min-width: 200px; }
+        .controls select { min-width: 150px; }
+        
+        .digest-item {
+            background: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: box-shadow 0.2s, border-color 0.2s;
+        }
+        .digest-item:hover {
+            border-color: #0366d6;
+            box-shadow: 0 1px 4px rgba(3, 102, 214, 0.1);
+        }
+        .digest-item.expanded {
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .digest-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .digest-date { 
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .digest-count {
+            background: #0366d6;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .digest-content {
+            display: none;
+            margin-top: 20px;
+            border-top: 1px solid #e1e4e8;
+            padding-top: 20px;
+        }
+        .digest-item.expanded .digest-content {
+            display: block;
+        }
+        
+        .topic {
+            margin-bottom: 25px;
+        }
+        .topic-title {
+            font-weight: 600;
+            font-size: 14px;
+            color: #0366d6;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .paper {
+            margin-bottom: 18px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .paper:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .paper-title {
+            font-weight: 600;
+            margin-bottom: 6px;
+            line-height: 1.4;
+        }
+        .paper-title a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .paper-title a:hover {
+            text-decoration: underline;
+        }
+        
+        .paper-meta {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 6px;
+        }
+        .paper-score {
+            display: inline-block;
+            background: #f6f8fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-left: 8px;
+        }
+        
+        .paper-abstract {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #555;
+        }
+        
+        .empty {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Paper Digest Archive</h1>
+            <p>Browse weekly arXiv + journal paper digests, sorted by relevance to your research</p>
+        </header>
+        
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search by title, author, or keyword...">
+            <select id="topicFilter">
+                <option value="">All topics</option>
+            </select>
+        </div>
+        
+        <div id="digestList" class="loading">Loading digests...</div>
+    </div>
+
+    <script>
+        let allDigests = [];
+        let filteredDigests = [];
+
+        async function loadDigests() {
+            try {
+                const res = await fetch('./digests.json');
+                allDigests = await res.json();
+                
+                // Load each digest's detail
+                const details = await Promise.all(
+                    allDigests.map(d => 
+                        fetch(`./digests/${d.date}.json`)
+                            .then(r => r.json())
+                            .catch(() => null)
+                    )
+                );
+                
+                allDigests = allDigests.map((d, i) => ({ ...d, ...details[i] }))
+                    .filter(d => d.topics);
+                
+                populateTopicFilter();
+                render();
+            } catch (err) {
+                document.getElementById('digestList').innerHTML = 
+                    `<div class="empty">Error loading digests: ${err.message}</div>`;
+            }
+        }
+
+        function populateTopicFilter() {
+            const topics = new Set();
+            allDigests.forEach(d => {
+                if (d.topics) Object.keys(d.topics).forEach(t => topics.add(t));
+            });
+            const select = document.getElementById('topicFilter');
+            [...topics].sort().forEach(topic => {
+                const opt = document.createElement('option');
+                opt.value = topic;
+                opt.textContent = topic;
+                select.appendChild(opt);
+            });
+        }
+
+        function filter() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const topic = document.getElementById('topicFilter').value;
+            
+            filteredDigests = allDigests.filter(d => {
+                if (topic && !d.topics[topic]) return false;
+                if (!search) return true;
+                
+                const text = JSON.stringify(d).toLowerCase();
+                return text.includes(search);
+            });
+            
+            render();
+        }
+
+        function render() {
+            const list = document.getElementById('digestList');
+            if (!filteredDigests.length) {
+                list.innerHTML = '<div class="empty">No digests match your search.</div>';
+                return;
+            }
+            
+            list.innerHTML = filteredDigests.map(d => `
+                <div class="digest-item" onclick="this.classList.toggle('expanded')">
+                    <div class="digest-header">
+                        <div class="digest-date">${d.date}</div>
+                        <div class="digest-count">${d.total} papers</div>
+                    </div>
+                    <div class="digest-content">
+                        ${Object.entries(d.topics || {})
+                            .map(([topic, papers]) => `
+                                <div class="topic">
+                                    <div class="topic-title">${topic} (${papers.length})</div>
+                                    ${papers.map(p => `
+                                        <div class="paper">
+                                            <div class="paper-title">
+                                                <a href="${p.url}" target="_blank">${escapeHtml(p.title)}</a>
+                                            </div>
+                                            <div class="paper-meta">
+                                                ${escapeHtml(p.authors.substring(0, 100))}${p.authors.length > 100 ? '...' : ''}
+                                                <span class="paper-score">score ${p.score}</span>
+                                                <span style="margin-left: 8px; opacity: 0.7;"><i>${escapeHtml(p.source)}</i></span>
+                                            </div>
+                                            <div class="paper-abstract">${escapeHtml(p.abstract.substring(0, 200))}${p.abstract.length > 200 ? '…' : ''}</div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            `).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        document.getElementById('searchInput').addEventListener('input', filter);
+        document.getElementById('topicFilter').addEventListener('change', filter);
+        
+        loadDigests();
+    </script>
+</body>
+</html>
