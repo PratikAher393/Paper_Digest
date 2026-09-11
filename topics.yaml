@@ -57,7 +57,6 @@ topics:
     sn epitaxy: 3
     molecular beam epitaxy: 1
     mbe superconduct: 2
-    
 
   NbSe2 / Intercalated TMDs:
     nbse: 3
@@ -66,7 +65,6 @@ topics:
     transition metal: 2
     tmd: 2
 
-  
 
   Quantum Materials & Transport:
     quantum oscillation: 2
@@ -76,8 +74,9 @@ topics:
     topological: 2
 
 # Any paper by these authors gets +5 under "Watched authors"
+# These are leading experimental groups in superconductor/semiconductor physics
 watch_authors:
-   # Your advisor
+  # Your advisor
   - Joon Sue Lee
   - "Lee, Joon Sue"
   
@@ -92,7 +91,6 @@ watch_authors:
   - Geo Bakkers
   - Peter Krogstrup
   - "P. Krogstrup"
-  
   
   # β-Sn and planar Josephson junctions
   - William Schiela
