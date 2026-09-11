@@ -3,15 +3,15 @@
 # ============================================================
 
 days_back: 7          # size of the search window (one week)
-min_score: 3          # papers scoring below this are dropped
-max_per_topic: 15     # cap so one busy topic doesn't flood the email
-contact_email: paher@vols.utk.edu   # Crossref asks for a contact (polite API pool)
+min_score: 2          # papers scoring below this are dropped (lower = more papers)
+max_per_topic: 20     # cap so one busy topic doesn't flood the email
+contact_email: paher@vols.utk.edu
 
 # arXiv categories to scan (cross-listed papers are de-duplicated)
 arxiv_categories:
-  - cond-mat.supr-con
-  - cond-mat.mes-hall
-  - cond-mat.mtrl-sci
+  - cond-mat.supr-con      # superconductivity
+  - cond-mat.mes-hall      # mesoscopic physics, Majorana
+  - cond-mat.mtrl-sci      # materials science
 
 # Journals pulled from Crossref, by ISSN
 journals:
@@ -21,49 +21,88 @@ journals:
   Physical Review Materials: 2475-9953
   Nature Physics: 1745-2473
   Nature Communications: 2041-1723
+  Nature Materials: 1476-1122
   Nano Letters: 1530-6984
+  ACS Nano: 1936-086X
 
-# Topics -> {keyword: weight}. Matching is case-insensitive substring,
-# so short stems work ("nbse" catches NbSe2 and NbSe₂).
+# Topics -> {keyword: weight}. Matching is case-insensitive substring.
 # A keyword found in the TITLE counts double.
+# Add or remove topics based on what you care about.
 topics:
-  Superconducting diode effect:
+  
+  Superconducting Diode Effect:
     superconducting diode: 5
     josephson diode: 5
-    nonreciprocal: 3
+    nonreciprocal superconduct: 4
     diode effect: 3
     magnetochiral: 2
+    asymmetric josephson: 3
 
-  Majorana / SC-semiconductor hybrids:
+  Majorana / SC-Semiconductor Hybrids:
     majorana: 4
     topological superconduct: 3
     inas: 2
+    ingaas: 2
     planar josephson: 3
-    selective area: 3
+    selective area growth: 3
+    sag growth: 3
     shadow: 1
-    proximit: 2          # proximity / proximitized
+    proximit: 2
     andreev: 2
 
-  β-Sn and MBE superconductors:
+  β-Sn and MBE Superconductors:
     β-sn: 5
     beta-sn: 5
     tin film: 3
+    sn epitaxy: 3
     molecular beam epitaxy: 1
-    epitaxial superconduct: 3
+    mbe superconduct: 2
+    
 
-  NbSe2 / intercalated TMDs:
+  NbSe2 / Intercalated TMDs:
     nbse: 3
     intercalat: 2
     ising superconduct: 3
+    transition metal: 2
+    tmd: 2
 
-  PNR / YIG-Pt interfaces:
-    polarized neutron reflectometry: 5
-    neutron reflectometry: 4
-    yig: 3
-    spin seebeck: 3
-    spin hall magnetoresistance: 3
+  
+
+  Quantum Materials & Transport:
+    quantum oscillation: 2
+    hall effect: 2
+    magnetotransport: 2
+    two-dimensional electron: 2
+    topological: 2
 
 # Any paper by these authors gets +5 under "Watched authors"
 watch_authors:
+   # Your advisor
   - Joon Sue Lee
-  # - add groups you follow here
+  - "Lee, Joon Sue"
+  
+  # Superconducting diode effect leaders
+  - Javad Shabani
+  - Chris Marcus
+  - Charles M. Marcus
+  
+  # Majorana / SC-semiconductor experimentalists
+  - Leo Kouwenhoven
+  - "L. P. Kouwenhoven"
+  - Geo Bakkers
+  - Peter Krogstrup
+  - "P. Krogstrup"
+  
+  
+  # β-Sn and planar Josephson junctions
+  - William Schiela
+  - Peng Yu
+  
+  # Josephson diode effect / nonreciprocal transport
+  - Thomas Schäpers
+  - Christopher Strunk
+  - Tyrel McQueen
+  
+  # Alternative platforms (keep broad to catch emerging work)
+  - "Yong P. Chen"
+  - Dirk Morr
