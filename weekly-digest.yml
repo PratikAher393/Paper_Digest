@@ -1,0 +1,52 @@
+name: weekly-paper-digest
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"     # Mondays 12:00 UTC  (~7–8 am in Knoxville)
+  workflow_dispatch:          # adds a "Run workflow" button for manual tests
+
+permissions:
+  contents: write             # lets the job commit digest files back to the repo
+  pages: write
+  id-token: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install feedparser requests pyyaml
+
+      - name: Build digest
+        run: python digest.py
+
+      - name: Commit and push digest files
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add docs/digests/ docs/digests.json seen.json
+          git commit -m "digest: $(date +%Y-%m-%d)" || echo "nothing to commit"
+          git push
+
+      - name: Send digest email (optional)
+        if: vars.SEND_EMAIL == 'true'
+        run: python send_email.py
+        env:
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+  deploy:
+    needs: digest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v2
