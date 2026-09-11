@@ -50,9 +50,10 @@ topics:
     proximit: 2
     andreev: 2
 
-  β-Sn and MBE Superconductors:
-    β-sn: 5
+  "β-Sn and MBE Superconductors":
+    "β-sn": 5
     beta-sn: 5
+    alpha-sn: 5
     tin film: 3
     sn epitaxy: 3
     molecular beam epitaxy: 1
