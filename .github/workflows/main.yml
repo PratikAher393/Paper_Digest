@@ -1,0 +1,38 @@
+name: weekly-paper-digest
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"     # Mondays 12:00 UTC  (~7–8 am in Knoxville)
+  workflow_dispatch:          # adds a "Run workflow" button for manual tests
+
+permissions:
+  contents: write             # lets the job commit seen.json back to the repo
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install feedparser requests pyyaml
+
+      - name: Build and send digest
+        run: python digest.py
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+
+      # Committing weekly also keeps the schedule alive
+      # (GitHub pauses cron jobs in repos with no activity for 60 days)
+      - name: Save list of already-sent papers
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add seen.json
+          git commit -m "digest: update seen papers" || echo "nothing to commit"
+          git push
