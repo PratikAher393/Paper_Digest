@@ -1,0 +1,238 @@
+days_back: 7
+min_score: 4          # papers scoring below this are dropped (raise it for fewer, tighter results)
+featured_score: 8     # papers at or above this score, or by a watched author, become "top picks"
+max_per_topic: 20
+contact_email: paher@vols.utk.edu
+
+arxiv_categories:
+  - cond-mat.supr-con
+  - cond-mat.mes-hall
+  - cond-mat.mtrl-sci
+  - physics.app-ph
+
+journals:
+  Physical Review Letters: "0031-9007"
+  Physical Review B: "2469-9950"
+  Physical Review Applied: "2331-7019"
+  Physical Review Materials: "2475-9953"
+  Nature Physics: "1745-2473"
+  Nature Communications: "2041-1723"
+  Nature Materials: "1476-1122"
+  Nano Letters: "1530-6984"
+  ACS Nano: "1936-086X"
+  Applied Physics Letters: "0003-6951"
+  Journal of Crystal Growth: "0022-0248"
+  Superconductor Science and Technology: "0953-2048"
+
+topics:
+  # Format:  keyword: weight.  A keyword in the title counts double.
+  # Weights: 4-5 = very specific phrase, 2-3 = fairly specific, 1 = broad word.
+  # A paper needs a total of min_score to show up; featured_score or more = top pick.
+
+  MBE Growth of Superconductors:
+    molecular beam epitaxy: 3
+    mbe-grown: 3
+    mbe growth: 3
+    beta-sn: 5
+    alpha-sn: 4
+    sn epitaxy: 5
+    tin film: 3
+    sn thin film: 4
+    epitaxial niobium: 4
+    epitaxial nb: 4
+    epitaxial aluminum: 4
+    epitaxial al: 3
+    superconducting thin film: 2
+    rheed: 3
+    cryogenic deposition: 3
+    low-temperature growth: 2
+    domain matching epitaxy: 4
+    lattice mismatch: 2
+    substrate temperature: 1
+    wetting: 1
+
+  Superconductor-Semiconductor Interfaces:
+    superconductor-semiconductor: 4
+    semiconductor-superconductor: 4
+    superconductor/semiconductor: 4
+    inas/al: 4
+    al/inas: 4
+    inassb: 4
+    inas/nb: 4
+    gaas/nb: 5
+    gasb: 3
+    gaas(111): 3
+    inas(111): 3
+    interface transparency: 3
+    hard gap: 3
+    induced gap: 3
+    band bending: 2
+    two-dimensional electron gas: 2
+    in situ capping: 3
+    shadow: 1
+    heterostructure: 1
+
+  Nanowire Selective Area and Template-Assisted Growth:
+    template-assisted selective epitaxy: 5
+    tase: 4
+    selective area growth: 4
+    selective-area: 3
+    sag growth: 4
+    shadow-bridge: 4
+    shadow wall: 3
+    nanowire: 2
+    inas nanowire: 4
+    silicon-on-insulator: 3
+    soi: 1
+    vapor-liquid-solid: 3
+    hybrid nanowire: 3
+
+  Nanofabrication and Cleanroom Processes:
+    electron beam lithography: 3
+    e-beam lithography: 3
+    ebl: 2
+    plasma etching: 3
+    reactive ion etching: 3
+    atomic layer deposition: 3
+    ald: 1
+    pecvd: 3
+    lift-off: 2
+    hard mask: 3
+    surface cleaning: 3
+    oxide removal: 3
+    descum: 3
+    resist: 1
+    device fabrication: 2
+    fabrication process: 2
+    low-disorder: 3
+    contact resistance: 2
+
+  Germanium and Sn-Ge Epitaxy:
+    germanium: 3
+    gesn: 5
+    sn-ge: 4
+    ge-sn: 4
+    sige: 3
+    ge/sige: 4
+    ge/si: 3
+    ge quantum well: 4
+    ge hole gas: 4
+    planar germanium: 4
+    germanium quantum well: 5
+    ge(001): 3
+    ge(111): 3
+    strained germanium: 4
+    ge heterostructure: 4
+    hole gas: 2
+    hole spin qubit: 2
+    ge josephson: 5
+    ge-based josephson: 5
+    superconductor/germanium: 4
+    germanium-superconductor: 4
+    al/ge: 4
+    pt germanide: 4
+    germanide: 3
+    sn on ge: 5
+    sn/ge: 5
+
+  Planar Josephson Junctions:
+    planar josephson: 5
+    planar junction: 4
+    planar josephson junction: 5
+    planar superconductor-normal-superconductor: 4
+    planar sns: 4
+    two-dimensional josephson: 3
+    2deg josephson: 4
+    topological planar: 4
+    phase-controlled: 3
+    phase-biased: 3
+    josephson junction array: 2
+    wide junction: 2
+    junction width: 2
+    in-plane magnetic field: 2
+    sn-based planar: 5
+    sn josephson: 5
+    tin josephson: 5
+
+  Single Junction and Sn-Based Devices:
+    single josephson junction: 4
+    individual josephson junction: 4
+    sn-based junction: 5
+    sn junction: 4
+    tin junction: 4
+    sn/inas: 5
+    sn/insb: 5
+    sn/gasb: 5
+    sn/gaas: 5
+    sn/si: 3
+    sn/inassb: 5
+    sn-based: 3
+    sn-based superconduct: 4
+    sn-based device: 4
+    tin-based: 3
+    sn nanowire: 4
+    sn contact: 3
+    current-phase relation: 3
+    junction transparency: 3
+    ballistic junction: 3
+
+  Josephson and Proximity Effects:
+    josephson junction: 3
+    gate-tunable josephson: 5
+    gate-tunable supercurrent: 5
+    gatemon: 4
+    proximity effect: 3
+    proximity-induced: 3
+    andreev reflection: 3
+    andreev bound state: 3
+    multiple andreev reflection: 4
+    fraunhofer: 3
+    shapiro: 3
+    squid: 2
+    weak antilocalization: 3
+    rashba: 2
+    spin-orbit coupling: 1
+    supercurrent: 1
+    critical current: 1
+
+  Majorana and Topological Superconductivity:
+    majorana: 4
+    topological superconduct: 4
+    topological qubit: 3
+    zero-bias peak: 3
+    topological gap protocol: 4
+    topological insulator/superconductor: 4
+    ti/sc: 3
+    bi2se3: 2
+    bi2te3: 2
+    topological insulator: 1
+    parity: 1
+
+  Altermagnets and Novel Heterostructures:
+    altermagnet: 4
+    mnte: 4
+    altermagnetic: 4
+    biAs: 2
+    bismuth monolayer: 3
+    magnetic proximity: 2
+    superconductor/altermagnet: 5
+    antiferromagnet/superconductor: 3
+
+# Matched against the author list ignoring case and accents, as a substring.
+# arXiv often lists middle initials ("Leo P. Kouwenhoven"), so use a surname
+# alone when it is rare, and full names when it is common.
+watch_authors:
+  - Joon Sue Lee
+  - Javad Shabani
+  - Charles M. Marcus
+  - Kouwenhoven
+  - Bakkers
+  - Krogstrup
+  - William Schiela
+  - Thomas Schapers
+  - Christopher Strunk
+  - Tyrel McQueen
+  - Yong P. Chen
+  - Pradip Adhikari
+  - Anjali Rathore
+  - Nygard
