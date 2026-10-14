@@ -23,6 +23,7 @@ journals:
   Applied Physics Letters: "0003-6951"
   Journal of Crystal Growth: "0022-0248"
   Superconductor Science and Technology: "0953-2048"
+  Physical Review Research: "2643-1564"
 
 topics:
   # Format:  keyword: weight.  A keyword in the title counts double.
