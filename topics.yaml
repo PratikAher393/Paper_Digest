@@ -49,25 +49,11 @@ topics:
     molecular beam epitaxy: 1
     mbe superconduct: 2
 
-  NbSe2 and Intercalated TMDs:
-    nbse: 3
-    intercalat: 2
-    ising superconduct: 3
-    transition metal dichalcogenide: 3
-    tmd: 2
-
-  Polarized Neutron Reflectometry:
-    polarized neutron reflectometry: 5
-    neutron reflectometry: 4
-    pnr: 3
-    spin seebeck: 3
-    spin hall magnetoresistance: 3
-
-  YIG Magnetic Interfaces:
-    yig: 3
-    yttrium iron garnet: 3
-    magnetic interface: 2
-    spin transport: 2
+  Germanium and Tin:
+    Ge epitaxy:
+    Ge-Sn:
+    
+    
 
   Quantum Materials Transport:
     quantum oscillation: 2
