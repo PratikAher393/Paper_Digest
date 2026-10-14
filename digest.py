@@ -113,10 +113,20 @@ def fetch_all():
 # ------------------------------------------------------------------
 # 2. SCORE
 # ------------------------------------------------------------------
+def found(term, text):
+    """True if `term` starts at a word boundary in `text`.
+
+    Stems still work ("superconduct" matches "superconductor"), but a short
+    keyword no longer matches in the middle of another word
+    ("inas" used to match "kinase").
+    """
+    return re.search(r"(?<![a-z0-9])" + re.escape(term.lower()), text) is not None
+
+
 def topic_score(title, text, terms):
     """Sum of keyword weights found in the text; title hits count double."""
-    return sum(w * (2 if t.lower() in title else 1)
-               for t, w in terms.items() if t.lower() in text)
+    return sum(w * (2 if found(t, title) else 1)
+               for t, w in terms.items() if found(t, text))
 
 
 def score(paper):
