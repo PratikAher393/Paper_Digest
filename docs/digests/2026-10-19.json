@@ -1,0 +1,682 @@
+{
+ "date": "2026-10-19",
+ "period": "2026-10-12 to 2026-10-19",
+ "total": 36,
+ "topic_order": [
+  "MBE Growth of Superconductors",
+  "Superconductor-Semiconductor Interfaces",
+  "Nanowire Selective Area and Template-Assisted Growth",
+  "Nanofabrication and Cleanroom Processes",
+  "Germanium and Sn-Ge Epitaxy",
+  "Planar Josephson Junctions",
+  "Single Junction and Sn-Based Devices",
+  "Josephson and Proximity Effects",
+  "Majorana and Topological Superconductivity",
+  "Altermagnets and Novel Heterostructures",
+  "Watched authors"
+ ],
+ "topics": {
+  "MBE Growth of Superconductors": [
+   {
+    "id": "arxiv:2610.20523",
+    "title": "Growth-induced trade-off between polarity, electrical isolation, and structural quality in AlN grown on Si(111) by plasma-assisted molecular beam epitaxy",
+    "authors": "Hossein Yazdani, Nhu Tran, Xin Du, Vit Hornik, Roman Gr\u00f6ger, YongJin Cho",
+    "abstract": "We investigate the effects of substrate temperature and Al flux, at a fixed N flux, on the polarity, electrical properties, and structural quality of AlN films grown on high-resistivity Si(111) by plasma-assisted molecular beam epitaxy. N-rich conditions result in relatively highly resistive Al-polar AlN/Si, whereas Al-rich conditions promote N-polarity and improved structural quality but simultaneously lead to increased p-type conductivity of AlN/Si stacks, consistent with unintentional Al doping of the Si substrate during AlN growth. Increasing the substrate temperature further improves the structural quality while enhancing the unwanted conductivity, revealing a growth-induced trade-off among polarity, electrical isolation, and structural quality. By reducing the substrate temperature to 575\u00b0C while maintaining slightly Al-rich conditions, an N-polar AlN/Si stack with a sheet resistance of 276 k\u03a9/sq is achieved. These results provide guidelines for optimizing AlN/Si templates for various nitride device heterostructures.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.20523v1",
+    "published": "2026-10-14",
+    "score": 9,
+    "matched": [
+     "molecular beam epitaxy",
+     "substrate temperature",
+     "heterostructure",
+     "resist"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.21856",
+    "title": "Large in-plane optical anisotropy in epitaxial CrN(113) films",
+    "authors": "Duc V. Dinh, Frank Peiris, Oliver Brandt",
+    "abstract": "CrN, a transition-metal nitride crystallizing in the cubic rocksalt structure, exhibits a unique combination of mechanical robustness, semiconducting behavior, and thermoelectric functionality. To date, however, CrN has been synthesized primarily as polycrystalline material or as epitaxial films grown along high-symmetry orientations such as (001) and (111). Here, we prepare epitaxial CrN(113) films on AlN(11\\bar{2}2) templates by plasma-assisted molecular beam epitaxy. The low-symmetry interface and highly direction dependent lattice mismatch are expected to modify the physical properties of CrN relative to the bulk material. Indeed, variable-angle spectroscopic ellipsometry in the photon-energy range from 1.25 to 5 eV reveals a surprisingly strong polarization dependence of the optical response despite the nearly strain-free cubic crystal structure of the films. The pseudo-optical constants n and k differ by more than 10% for orthogonal in-plane polarizations throughout the investigated spectral range. We evaluate possible origins of this effect and conclude that it most likely arises from anisotropic surface morphology of CrN(113), which creates a metasurface acting as a subwavelength grating in the strongly absorbing regime.",
+    "source": "arXiv",
+    "category": "physics.app-ph",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.21856v1",
+    "published": "2026-10-15",
+    "score": 5,
+    "matched": [
+     "molecular beam epitaxy",
+     "lattice mismatch"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Superconductor-Semiconductor Interfaces": [
+   {
+    "id": "doi:10.1103/93jd-gbsb",
+    "title": "Gate-tunable superconductor-semiconductor coupling and its impact on zero-energy modes in PbTe-Pb nanowires",
+    "authors": "Ruidong Li, Shuai Yang, Wenyu Song, Zeyu Yan, Yuhao Wang, Zehao Yu, Li Chen, Zixun Xia, Zonglin Li, Shan Zhang, Jiaye Xu, Lining Yang, Weizhao Wang, Xiao Feng, Tiantian Wang, Yunyi Zang, Lin Li, Runan Shang, Dong E. Liu, Qi-Kun Xue, Ke He, Hao Zhang",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/93jd-gbsb",
+    "published": "2026-10-15",
+    "score": 12,
+    "matched": [
+     "superconductor-semiconductor",
+     "nanowire"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/nn6m-pp8c",
+    "title": "Advances on jacutingaite ( Pt 2 HgSe 3 )-based materials: Natural mineral to tunable topological phases",
+    "authors": "Pradip Basnet, Madhav Prasad Ghimire",
+    "abstract": "Jacutingaite, Pt 2 HgSe 3 , has emerged as a model van der Waals material linking mineralogy, solid-state chemistry, and topological quantum physics. Single crystals of bulk Pt 2 HgSe 3 experimentally synthesized under high-pressure and high-resolution angle-resolved photoemission spectroscopy reveal a gapped Dirac nodal-line structure along with the surface states with multiple saddle points and van Hove singularities. Furthermore, under hydrostatic pressure, transport measurements show a structure phase transition accompanied by superconductivity, with T c reaching approximately 4.4 K at 88.8 GPa. Density functional theory calculations predict bulk Pt 2 HgSe 3 to possess dual topology, characterized by weak Z 2 topology and mirror-symmetry-protected crystalline topology. Monolayer Pt 2 HgSe 3 was predicted to realize a Kane\u2013Mele-type quantum spin Hall state with a spin-orbit induced gap of \u223c 0.15 \u2013 0.5 eV , a result supported by early experimental signatures. Other theoretical studies predicted that the electronic structure and topological properties can be tuned by layer thickness, strain, electric fields, and pressures. Bilayers are shown to be initially trivial due to layer-internal inversion asymmetry, but with encapsulation within hexagonal boron nitride undergoes an electronically driven topological phase transition which narrows the trivial band gap, and a modest out-of-plane electric field reinverts the bands to restore their topology, though these mechanisms remain to be verified experimentally. This research update consolidates the theoretical and experimental advances across bulk, monolayer, and bilayer forms, with a particular focus on chemical doping, heterostructure engineering, and pressure-induced superconductivity, the last of which has been experimentally observed in bulk Pt 2 HgSe 3 . Benchmark values such as band gaps, valley splittings, and critical temperatures are summarized to provide a reference for ongoing studies. We evaluate the prospects of jacutingaite-based materials for realizing quantum spin Hall, quantum anomalous Hall, and topological superconducting states with the major challenges associated with their synthesis, structural stability, and device integration. This study brings together the experimentally established properties and theoretically predicted tunability and highlights strategic directions for advancing jacutingaite-based systems toward practical applications in spintronics, valleytronics, and emerging quantum technologies.",
+    "source": "Physical Review Materials",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/nn6m-pp8c",
+    "published": "2026-10-19",
+    "score": 8,
+    "matched": [
+     "induced gap",
+     "heterostructure",
+     "topological superconduct"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/n9xl-chqq",
+    "title": "Electronic structure associated with nonsymmorphic nodal lines in rare-earth tetraborides",
+    "authors": "Y. Kondo, S. Souma, G. Hoshino, A. Homma, T. Osumi, D. Shiga, H. Kumigashira, K. Ozawa, T. Koretsune, K. Segawa, T. Sato",
+    "abstract": "We report a combined microfocused angle-resolved photoemission spectroscopy and first-principles study of the rare-earth tetraborides R B 4 ( R = Tb , Gd ) , which host a Shastry-Sutherland lattice. We identify extended bulk nodal lines at the tetragonal Brillouin-zone boundaries, whose fourfold degeneracies are enforced by the nonsymmorphic glide-mirror symmetries even in the presence of spin-orbit coupling (SOC), unlike conventional nodal lines that SOC typically gaps. Systematically evolving Dirac-like dispersions resolved by momentum-distribution-curve analysis support this symmetry-enforced nodal line. We further identify a related nodal-line feature that disperses toward the Fermi level ( E F ) ; although the calculated SOC-induced gap for this feature (0.2\u20134.6 meV) lies below the experimental resolution, its proximity to E F offers a band-structure basis consistent with the emergence of large magnetoresistance. First-principles Wilson-loop calculations establish a nontrivial \u03c0 Berry phase for the bulk nodal line, and we observe a photon-energy-independent surface-derived feature whose dispersion is consistent with the calculated surface state. Our results identify R B 4 as a platform for nonsymmorphic-symmetry-enforced nodal-line physics with potential relevance to large magnetoresistance and topological surface states.",
+    "source": "Physical Review Research",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/n9xl-chqq",
+    "published": "2026-10-19",
+    "score": 4,
+    "matched": [
+     "induced gap",
+     "spin-orbit coupling"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1063/5.0344498",
+    "title": "AlN/AlGaN heterostructure field-effect transistor power devices advantageous for high-temperature application",
+    "authors": "Rongjun Zhang, Sirui Feng, Yanqiu Wang, Maojin Yang, Xiaoping Wang, Haolin Hu, Yuan Yang, Yuxi Wan, Aimin Song, Bo Shen, Dao Hua Zhang",
+    "abstract": "We report a high-quality AlN/Al0.73Ga0.27N heterostructure field-effect transistor (HFET) advantageous for high-temperature application. The epitaxial heterostructures exhibit a full width at half maximum of 79 arc sec in the (0002) XRD rocking curve, a surface roughness of 0.35 nm, a room-temperature two-dimensional electron gas density of 1.4 \u00d7 1013 cm\u22122 and mobility of 147 cm2/V/s. Two-terminal mesa breakdown measurements revealed an intrinsic critical electric field of 5.6 MV/cm for a 3 \u03bcm gap. AlN/Al0.73Ga0.27N HFET devices with gate\u2013drain spacings of 5, 10, 25, and 50 \u03bcm were fabricated, and the breakdown voltages are 990, 1420, 2045, and 4203 V, respectively. Remarkably, the saturated drain current exhibits a positive temperature coefficient, in contrast to the negative coefficient in conventional gallium nitride high-electron-mobility transistors, and the threshold voltage decreases from \u22129.3 to \u22127.9 V in the temperature range from 25 to 175 \u00b0C. This anomalous behavior is attributed to dominant carrier de-trapping from deep-level traps, confirmed by pulsed I\u2013V measurements, temperature-dependent C\u2013V, and Hall measurements. These observations provide strong evidence for the multi-kilovolt-class and high-temperature power switching applications of the AlN/Al0.73Ga0.27N HFET devices.",
+    "source": "Applied Physics Letters",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1063/5.0344498",
+    "published": "2026-10-19",
+    "score": 4,
+    "matched": [
+     "two-dimensional electron gas",
+     "heterostructure"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1103/5mkt-44tw",
+    "title": "Electrically controllable Landau levels in two-dimensional electron gases under nonuniform magnetic fields",
+    "authors": "You-Ting Huang, Chao-Cheng Kaun, Ching-Hao Chang",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/5mkt-44tw",
+    "published": "2026-10-15",
+    "score": 4,
+    "matched": [
+     "two-dimensional electron gas"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Nanofabrication and Cleanroom Processes": [
+   {
+    "id": "arxiv:2610.22911",
+    "title": "From Surface Reactions to Inhibitor Coverage: A Machine-Learning-Assisted Computational Study of Area-Selective Atomic Layer Deposition",
+    "authors": "Gijin Kim, Seungwu Han, Youngho Kang",
+    "abstract": "Area-selective atomic layer deposition (AS-ALD) enables selective material growth for the fabrication of nanoscale semiconductor devices. Predicting inhibitor coverage is essential for understanding and optimizing surface blocking in AS-ALD. Here, we present a computational workflow combining a pretrained universal machine-learning interatomic potential with off-lattice grand canonical Monte Carlo simulations and apply it to inhibitor adsorption and precursor blocking on amorphous SiO2. Realistic surface models reveal substantial site-dependent variations in reaction energies and activation barriers, with silanol groups serving as the primary adsorption sites for aminosilane and related inhibitors and metal precursors. Coverage simulations show that inhibitors producing identical adsorbed fragments can yield different coverages because the intact molecules impose distinct steric constraints, leading to different accessible site densities and blocking capabilities. Beyond coverage, we highlight the importance of the reactivity of adsorbed inhibitor fragments toward precursors in determining inhibitor stability and blocking performance. Together, these findings demonstrate the need to consider both steric effects and chemical reactivity on realistic amorphous surfaces. Our calculations connect local reaction chemistry with inhibitor coverage and provide a computational basis for understanding inhibition mechanisms and selecting suitable inhibitor-precursor combinations for AS-ALD.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.22911v1",
+    "published": "2026-10-16",
+    "score": 7,
+    "matched": [
+     "atomic layer deposition",
+     "ald"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1088/1361-6668/aeb4f2",
+    "title": "Review on fabrication processing of powder-in-tube iron-based superconducting wires and tapes",
+    "authors": "Zhihong Ren, Xianping Zhang, Yanwei Ma, Chao Yao, Minghui Minghui, Meng Han, He Huang, Dongliang Wang",
+    "abstract": "Iron-based superconductors (IBS) represented by (Ba,K)Fe 2 As 2 have become promising candidates for high-field magnet applications due to their ultrahigh upper critical field, low anisotropy, and excellent transport critical current density (J c ). In recent years, the transport J c of 122-IBS conductors fabricated by the powder-in-tube (PIT) method has progressed rapidly, including the achievement of a practical-level J c exceeding 10 5 A/cm 2 at 4.2 K and 10 T, as well as the successful fabrication of 100-meter-class wires. This review summarizes the processing techniques employed in the PIT fabrication of IBS wires and tapes, with particular emphasis on how deformation governs filament microstructure, density, and texture. The discussion covers the degradation mechanisms induced by wire drawing, the texture development achieved through groove and flat rolling, and the densification and crack-healing capabilities of cold, hot, and isostatic pressing, as well as emerging composite strategies that combine multiple techniques. Finally, a summary and an outlook for IBS conductors are presented.",
+    "source": "Superconductor Science and Technology",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1088/1361-6668/aeb4f2",
+    "published": "2026-10-15",
+    "score": 5,
+    "matched": [
+     "fabrication process",
+     "critical current"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Germanium and Sn-Ge Epitaxy": [
+   {
+    "id": "doi:10.1103/sym2-vxjl",
+    "title": "Multilevel charge fluctuations in a Si/SiGe double quantum dot device",
+    "authors": "Dylan Albrecht, Feiyang Ye, N. Tobias Jacobson, John M. Nichol",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/sym2-vxjl",
+    "published": "2026-10-19",
+    "score": 6,
+    "matched": [
+     "sige"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Planar Josephson Junctions": [
+   {
+    "id": "doi:10.1103/wynl-dh5v",
+    "title": "Two-dimensional transport in an in-plane magnetic field",
+    "authors": "Aryaman Babbar, Sankar Das Sarma",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/wynl-dh5v",
+    "published": "2026-10-16",
+    "score": 4,
+    "matched": [
+     "in-plane magnetic field"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "arxiv:2610.20605",
+    "title": "Nodal nematic superconductivity in moir\u00e9 graphene",
+    "authors": "Shuwen Sun, Grgur Palle, Kenji Watanabe, Takashi Taniguchi, Rafael M. Fernandes, Pablo Jarillo-Herrero, Jeong Min Park",
+    "abstract": "Unconventional superconductivity can emerge in various forms in strongly correlated systems. Historically, the most extensively studied examples include nodal and triplet pairing, which were experimentally detected in cuprates and superfluid helium-3, respectively. Beyond these canonical cases, there are also nematic superconductors, in which the rotational symmetry of the lattice is broken in the superconducting state. While there are several examples of nematic superconductors whose pairing emerges inside a preexisting nematic normal state, experimental evidence for superconducting states that intrinsically break rotational symmetry on their own has been exceedingly scarce. Here, we report the experimental realization and identification of an intrinsic multi-component nodal nematic superconducting state in magic-angle twisted trilayer graphene (MATTG). By integrating tunneling spectroscopy with quantum transport measurements, we directly probe the symmetry of low-energy superconducting quasiparticles. Deep inside the superconducting state, we observe a pronounced two-fold anisotropy in the zero-bias tunneling conductance under an in-plane magnetic field, which is strongly suppressed together with superconductivity as the temperature or perpendicular magnetic field is increased. Remarkably, the major axis of anisotropy rotates by up to $90^{\\circ}$ across the superconducting dome, indicating an intrinsic, field- and density-tunable symmetry of the low-energy excitations. These behaviors imply a nodal superconducting state in MATTG that spontaneously breaks the six-fold rotational symmetry of the moir\u00e9 superlattice. Our results establish moir\u00e9 graphene as a versatile platform for realizing and interrogating nodal nematic superconductivity, opening a new avenue for exploring unconventional symmetry-breaking superconducting states in two-dimensional materials.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.20605v1",
+    "published": "2026-10-14",
+    "score": 4,
+    "matched": [
+     "in-plane magnetic field",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Single Junction and Sn-Based Devices": [
+   {
+    "id": "doi:10.1103/rxbq-74f6",
+    "title": "Entropy transport through a superfluid quantum point contact: A Keldysh field-theory approach",
+    "authors": "Davide Bertolusso, C. J. Bolech, Thierry Giamarchi",
+    "abstract": "We study the matter and entropy transport between two ultracold neutral Fermi-gas reservoirs linked by a quantum point contact under a chemical-potential gradient. We describe the two leads with a BCS mean-field model and derive the current-bias characteristics for both particle and entropy transport. We compute the out-of-equilibrium steady-state currents by using the Keldysh formalism. In accordance with previous works in the literature, we confirm the well-known behavior for the particle current and extend the computation to the entropy current in the BCS regime. The entropy current shows an oscillatory behavior at low voltage in the ballistic junction limit. We analyze the results for a wide range of values of the junction's transparency. We also compare our findings with experimental results in cold atomic gases in the unitary regime.",
+    "source": "Physical Review Research",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/rxbq-74f6",
+    "published": "2026-10-19",
+    "score": 5,
+    "matched": [
+     "ballistic junction",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Josephson and Proximity Effects": [
+   {
+    "id": "arxiv:2610.20268",
+    "title": "Transport regimes in tunnel ferromagnetic Josephson junctions",
+    "authors": "R. Satariano, A. A. Golubov, E. Raja, R. Ferraiuolo, F. Calloni, H. G. Ahmad, A. Vettoliere, N. Poccia, L. Parlato, G. Ausanio, C. Granata, G. P. Pepe, M. Yu. Kupriyanov, F. Tafuri, D. Montemurro, D. Massarotti",
+    "abstract": "We present a systematic study of the temperature-dependent transport properties of Nb- and Al-based superconductor--insulator--thin superconductor--ferromagnet--superconductor (SIsFS) Josephson junctions. By varying the superconducting material and the thickness of the intermediate superconducting layer, we identify three distinct transport regimes: a tunnel-dominated SIS-like regime, a temperature-driven crossover, and a complex weak-link regime. A unified Usadel-based description connects these regimes through the self-consistent pair potential of the intermediate s-layer. While for Al-based devices an SIS-like transport regime is observed, a self-consistent calculation of the s/F/S proximity electrode, combined with perturbative tunnel coupling to the outer electrode, accounts for Nb devices with different thickness of the superconducting interlayer. The calculation places the 10-nm-interlayer sample in a proximity-supported, strongly suppressed s state, close to the SInFS limit in which the interlayer is effectively driven normal (\\textit{n}). A reduced nonlinear long-junction description captures the same limiting physics. The evolution of I_cR_N(T) thereby provides a direct experimental signature of the three transport regimes. Beyond the fundamental interest, the results establish practical design guidelines: Nb junctions with sufficiently thick s interlayers are well suited for high-speed cryogenic memory elements and tunable superconducting parametric amplifiers, while Al junctions are natural candidates for coherent superconducting quantum circuits",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.20268v1",
+    "published": "2026-10-14",
+    "score": 6,
+    "matched": [
+     "josephson junction"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1103/py14-kv7p",
+    "title": "Imaging orbital Rashba induced charge transport anisotropy",
+    "authors": "Eylon Persky, Xi Wang, Giacomo Sala, Thierry C. van Thiel, Edouard Lesne, Alexander Lau, Mario Cuoco, Marc Gabay, Carmine Ortix, Andrea D. Caviglia, Beena Kalisky",
+    "abstract": "We reveal a direct orbital contribution to charge transport at the LaAlO 3 / SrTiO 3 interface using scanning superconducting quantum interference device current imaging and global transport. Current patterns reveal conductivity anisotropy at zero field. This anisotropy correlates with the nonlinear Hall effect, pointing to a shared origin. Using a k \u00b7 p model, we show that the local and global transport result from broken rotation and inversion symmetries, which give rise to anisotropic orbital Rashba coupling. Our results establish a route for probing orbital textures via purely electrical means.",
+    "source": "Physical Review Research",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/py14-kv7p",
+    "published": "2026-10-19",
+    "score": 4,
+    "matched": [
+     "rashba"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "arxiv:2610.21369",
+    "title": "Pairing-channel reconstruction by Ising spin-orbit coupling in a multiorbital triangular-lattice model",
+    "authors": "Lichuan Wang, Yuhang Xiao, Ran Wang, Xinliang Huang, Ning Hao",
+    "abstract": "Ising spin-orbit coupling (SOC) is widely known for locking electronic spins and protecting superconductivity against in-plane paramagnetic pair breaking. Here we show that, in a correlated multiorbital system, Ising SOC can play a qualitatively different role: it reconstructs the hierarchy of spin-fluctuation-mediated pairing channels by reshaping the low-energy Fermi surfaces, orbital-spin coherence factors, and momentum-resolved scattering phase space. We study a noncentrosymmetric two-orbital triangular-lattice model with Rashba SOC, Ising SOC, and onsite SOC. We solve the pairing problem within a multiorbital random-phase-approximation framework. In the single-orbital limit, an $E$-representation state with a dominant $S_z=0$ component emerges only at relatively strong Ising SOC. Orbital degrees of freedom facilitate the stabilization of this pairing state at a smaller nominal Ising SOC strength and generate a broad competition between $E$ and $A_1$ pairing channels. The $E$ state can maintain the same $S_z=0$ triplet character, whereas the $A_1$ state becomes a fully gapped sign-changing $\\splusminus$ superconductor. The latter also realizes a topologically nontrivial phase in the time-reversal-invariant weak-pairing regime, with a nonzero $\\mathbb{Z}_2$ index, Wilson-loop spectral flow, and boundary modes. Its topology is not carried by a single orbital pairing component, but emerges cooperatively from the dominant intra- and inter-orbital pairing components. These results establish a microscopic route by which Ising SOC and orbital hybridization can reconstruct interaction-driven superconductivity, producing both Ising-triplet and topological singlet-dominated phases in correlated non-centrosymmetric systems.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.21369v1",
+    "published": "2026-10-15",
+    "score": 4,
+    "matched": [
+     "rashba",
+     "spin-orbit coupling"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Altermagnets and Novel Heterostructures": [
+   {
+    "id": "arxiv:2610.19017",
+    "title": "Topological superconductivity in layered d-wave altermagnetic metals",
+    "authors": "Yijie Mo, Zhongbo Yan",
+    "abstract": "We investigate multilayer d-wave altermagnetic metals with odd-parity helical p-wave pairing. In the minimal bilayer system, interlayer tunneling reconstructs the spin-split Fermi surfaces and generates two layer-hybridized sectors with distinct effective chemical potentials. Without Rashba spin-orbit coupling (RSOC), the emergent mirror symmetry and subsystem chiral symmetry stabilize phases with different numbers of helical Majorana edge-mode pairs and additional counterpropagating pairs, jointly characterized by the mirror Chern number and the winding numbers defined along high-symmetry lines. The combination of RSOC and the altermagnetic exchange field gaps out the helical Majorana pairs while, in a certain parameter regime, leaving another pair of counterpropagating Majorana edge modes gapless, giving rise to second-order topological phases with isolated or twofold Majorana corner modes, as well as a hybrid-order phase in which gapless Majorana edge modes coexist with Majorana corner modes. We identify a layer symmetry that elucidates the physical origin of these phases. For an arbitrary N-layer system, such a symmetry naturally arises from the interlayer-coupling matrix, allowing N-fold Majorana corner modes to emerge when all layer-hybridized sectors enter the nontrivial second-order regime. Our results establish the interplay among the layer degree of freedom, odd-parity pairing, and Fermi-surface configurations as a controllable route to engineering topological superconductivity in layered altermagnetic systems.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.19017v1",
+    "published": "2026-10-13",
+    "score": 32,
+    "matched": [
+     "rashba",
+     "spin-orbit coupling",
+     "majorana",
+     "topological superconduct",
+     "parity",
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.23773",
+    "title": "Engineering nonrelativistic spin splitting in semiconductors by altermagnetic proximity",
+    "authors": "Sing Lam Wong, Marcel Franz",
+    "abstract": "Altermagnets combine vanishing net magnetization with momentum-dependent, nonrelativistic spin splitting, offering functionalities attractive for spintronics and quantum devices. Their practical use, however, is constrained by the limited availability of materials that simultaneously possess the required altermagnetic symmetry, semiconducting electronic structure, and weak spin-orbit coupling. Here we show that these requirements can instead be separated between constituent materials through proximity engineering. We develop an analytical theory for a conventional semiconductor coupled to a gapped $d$-wave altermagnet and demonstrate that virtual tunneling transfers the altermagnetic spin splitting to the semiconductor. Crucially, the induced nonrelativistic and relativistic spin splittings exhibit qualitatively different dependences on band alignment. Virtual processes involving the valence and conduction bands of the altermagnet can reinforce the altermagnetic splitting while contributing with opposite signs to the interfacial Rashba coupling. Consequently, electrostatic tuning can access a regime in which the Rashba splitting vanishes while a sizable $d$-wave spin splitting persists. Exact diagonalization of the full heterostructure model confirms the analytical theory and establishes the robustness of this mechanism beyond the perturbative regime. Our results identify altermagnetic proximity as a route for engineering nonrelativistic spin-split electronic states in established semiconductor platforms, providing a general strategy for disentangling magnetic and relativistic spin interactions in quantum heterostructures.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23773v1",
+    "published": "2026-10-16",
+    "score": 20,
+    "matched": [
+     "heterostructure",
+     "rashba",
+     "spin-orbit coupling",
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/8zh7-h5xd",
+    "title": "Supercurrent-driven N\u00e9el torque in superconductor/altermagnet hybrids",
+    "authors": "Hamed Vakili, Moaz Ali, Igor \u017duti\u0107, Alexey A. Kovalev",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/8zh7-h5xd",
+    "published": "2026-10-15",
+    "score": 20,
+    "matched": [
+     "supercurrent",
+     "altermagnet",
+     "superconductor/altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/w6cp-78mw",
+    "title": "Spin-locked helical currents and charge-neutral spin-channel pumping in altermagnetic nanotubes",
+    "authors": "Xin Chen, Zhen Han, Linyang Li, Mingwen Zhao",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/w6cp-78mw",
+    "published": "2026-10-16",
+    "score": 16,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.21770",
+    "title": "Coexistence of Altermagnetic and Compensated Ferrimagnetic Motifs in a Noncollinear Multiferroic",
+    "authors": "Vikrant Chaudhary, Fu Li, Hui Liu, Mengli Hu, Rajyavardhan Ray, Chen Shen, Jeroen van den Brink, Hongbin Zhang, Harish K. Singh",
+    "abstract": "Collinear compensated magnets with nonrelativistic spin splitting comprise altermagnets (ALMs), whose rotation- or mirror-related opposite-spin sublattices produce momentum-selective splitting that vanishes at $\u0393$, and compensated ferrimagnets (CFIMs), whose symmetry-inequivalent sublattices allow splitting throughout the Brillouin zone, including at $\u0393$. Here, we show that the coplanar noncollinear magnetic state of multiferroic boracite Ni$_3$B$_7$O$_{13}$Cl hosts both motifs on distinct Ni sublattices in real space. The electronic structure and spin texture exhibit coexisting $d$-wave-like and $s$-wave-like spin-polarization components associated with the ALM and CFIM motifs, respectively. Opposite ferroelectric states exhibit reversed band-resolved spin polarizations, indicating magnetoelectric coupling, and sign reversals of linear shift and circular injection currents.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.21770v1",
+    "published": "2026-10-15",
+    "score": 16,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/f873-q422",
+    "title": "Altermagnetic band geometry and the antiferromagnetic thermal boundary in a coupled fermion-Ising model",
+    "authors": "Xing-Can Liu, Ho-Kin Tang, Tao Ying, Xueru Zhang",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/f873-q422",
+    "published": "2026-10-14",
+    "score": 16,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.19793",
+    "title": "Orientation-Dependent Universality of Spin-Transport Fluctuations in Two-Dimensional Altermagnets",
+    "authors": "Yihan Zhang, Zheng Qin, Donghui Xu, Junjie Zeng, Zhen Ning, Rui Wang",
+    "abstract": "Universal conductance fluctuations are conventionally organized by symmetry class, but crystalline anisotropy introduces additional structure in spin transport. Here we demonstrate orientation-dependent universal spin-transport fluctuations in disordered two-dimensional $d$-wave altermagnets without spin-orbit coupling. Rotating the altermagnetic orientation changes both longitudinal spin-conductance and transverse spin-Hall conductance fluctuations, while each conserved-spin sector remains in class AI. Altermagnetic orientation controls both the fluctuation amplitudes and the development of disorder-insensitive plateaus. These plateaus become flatter and less sensitive to the altermagnetic strength over the studied parameter ranges as the orientation approaches $45^\\circ$, with representative fluctuation amplitudes of approximately $0.60e/(4\u03c0)$ for the longitudinal spin conductance and $0.40\\,e/(4\u03c0)$ for the spin-Hall conductance. The longitudinal fluctuation amplitude correlates strongly with anisotropy of the clean-band Fermi-velocity tensor. Spin-sector covariances explain how the conserved channels combine into total fluctuations. Our results extend anisotropy-sensitive universal-fluctuation physics to conserved-spin altermagnetic transport and establish crystalline orientation as a control parameter within a fixed symmetry class.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.19793v1",
+    "published": "2026-10-14",
+    "score": 13,
+    "matched": [
+     "spin-orbit coupling",
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.19582",
+    "title": "Magnetic proximity beyond the interface: Layer-sequence-dependent exchange in WSe$_2$/CrI$_3$ heterostructures",
+    "authors": "Natalie Kuhn, Marc Sch\u00fctte, Joachim Emming, Felix Hellenkamp, Leo Dreyer, Frank Volmer, Kenji Watanabe, Takashi Taniguchi, Lutz Waldecker, Christoph Stampfer, Bernd Beschoten",
+    "abstract": "Magnetic proximity effects in transition metal dichalcogenide (TMD)/2D-magnet heterostructures are often described in terms of the magnetization of the interfacial magnetic layer. Here, we show that this picture is sufficient to describe the neutral-exciton valley splitting of the TMD, but incomplete for its hole-doped electronic structure. We study a gate-tunable van der Waals heterostructure composed of monolayer WSe$_2$ in direct contact with trilayer CrI$_3$. By combining spatially and helicity-resolved reflection-contrast spectroscopy with magnetic circular dichroism, we identify two distinct magnetic domains in the trilayer CrI$_3$: one with purely antiferromagnetic interlayer coupling and one with a mixed antiferromagnetic (AFM)/ferromagnetic~(FM) coupling. In both domains, the sign of the neutral-exciton valley splitting of WSe$_2$ switches with the magnetization reversal of the adjacent CrI$_3$ layer. In contrast, helicity-resolved positive-trion spectroscopy of WSe$_2$ reveals a qualitatively different response. While the AFM domain shows a strongly helicity-selective trion resonance, the mixed AFM/FM domain exhibits trion resonances in both helicities. This behavior disappears when all CrI$_3$ layers are aligned in a parallel magnetization direction. Our results demonstrate that charged excitons are sensitive to the full layer-resolved magnetic sequence of the adjacent 2D-magnet, revealing magnetic proximity beyond the interface.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.19582v1",
+    "published": "2026-10-14",
+    "score": 9,
+    "matched": [
+     "heterostructure",
+     "proximity effect",
+     "magnetic proximity"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/zl26-y46s",
+    "title": "Nonlinear magnon magnetic moment transport in triangular-lattice f -wave anti-altermagnets",
+    "authors": "Volodymyr P. Kravchuk, Kostiantyn V. Yershov, Basti\u00e1n Pradenas, Robin R. Neumann, Rodrigo Jaeschke-Ubiergo, Ricardo Zarzuela, Jairo Sinova, Jeroen van den Brink, Alexander Mook",
+    "abstract": "We study the spin excitations in the frustrated coplanar 120 \u2218 ground state of the triangular-lattice Heisenberg antiferromagnet and demonstrate that they carry a magnetic moment perpendicular to the plane in which the spins order, despite the ground-state sublattice moments having no out-of-plane component. The symmetry of the momentum dependence of the magnetic moment and energy of the magnons renders the system an odd-parity f -wave magnet. Extending this model to a stack of antiferromagnetically coupled triangular layers provides a realization of magnons in a three-dimensional f -wave anti-altermagnet. We show that nonlinear thermal transport effects of magnons, such as Edelstein and spin-splitter effects, provide clear experimental signatures of magnons in f -wave anti-altermagnets.",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/zl26-y46s",
+    "published": "2026-10-13",
+    "score": 9,
+    "matched": [
+     "parity",
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/8nkd-ksnd",
+    "title": "Third-order intrinsic anomalous Hall effect in altermagnets",
+    "authors": "Longjun Xiang, Hao Jin, Jian Wang",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/8nkd-ksnd",
+    "published": "2026-10-19",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.22935",
+    "title": "Hidden Staggered Superconducting Order in V2Se2O-Family Altermagnets",
+    "authors": "Chun Yu Wan, Xiangxi Zhang, Fei Yang, Junwei Liu",
+    "abstract": "$\u03b7$ pairing describes a staggered superconducting condensate whose order parameter changes sign between neighboring unit cells while maintaining a uniform magnitude. Nearly four decades after its theoretical proposal by C. N. Yang, a material platform for stabilizing $\u03b7$ pairing has remained elusive. Here, we reveal that altermagnetism, despite being pair breaking for conventional BCS pairing, naturally favors $\u03b7$-like pairing in V$_2$Se$_2$O-family altermagnets. Their valley-contrasting spin structure gives rise to oppositely spin-polarized, symmetry-related valleys centered at $X=(\u03c0,0)$ and $Y=(0,\u03c0)$, which form spin-singlet pairing partners separated by the commensurate momentum $\\mathbf Q=(\u03c0,\u03c0)$, thereby favoring an $\u03b7$-like condensate. Self-consistent calculations demonstrate that the resulting $\u03b7$-like state remains robust over broad variations of chemical potential, hopping parameters, and Fermi-surface topology. To detect this hidden staggered order, we propose a phase-sensitive Josephson measurement with a uniform superconductor, where destructive interference suppresses single-Cooper-pair tunneling while preserving two-Cooper-pair processes. This constitutes a charge-$4e$-like Josephson response despite a bulk condensate composed of charge-$2e$ Cooper pairs, providing a direct phase-sensitive signature of the otherwise elusive $\u03b7$-like condensate in V$_2$Se$_2$O-family altermagnets.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.22935v1",
+    "published": "2026-10-16",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.23375",
+    "title": "Termination-dependent surface Fermiology in the intercalated altermagnet CoNb$_4$Se$_8$",
+    "authors": "Pietro Maria Forcella, Alessandro De Vita, Matthew D. Watson, Sammar Tayyab, Chiara Bigi, Iulia Cojocariu, Marcin Szpytma, Matteo Jugovac, Andrea Locatelli, Tevfik Onur Mentes, My Bang Petersen, Paolo Moras, Polina M. Sheverdyaeva, Christopher Candelora, Ilija Zeljkovic, Federico Motti, Jill A. Miwa, Vincent Polewczyk, Matthieu Jamet, Matteo Calandra, Younghun Hwang, Davide Romanin, Federico Mazzola",
+    "abstract": "Altermagnets have recently gained attention for hosting symmetry-enforced spin-split bands despite zero net magnetization. Angle-resolved photoelectron spectroscopy (ARPES) offers direct access to their electronic structure. However, the intrinsic surface sensitivity of this technique complicates the identification of the observed features: Surface states can be misinterpreted as the spin-split counterpart of bulk bands. This issue becomes particularly relevant for layered intercalated systems, where micrometer-sized domains with distinct terminations often coexist on a cleaved surface. We discuss this scenario for CoNb$_4$Se$_8$, one of the first established layered altermagnets. Supported by density functional theory calculations, we employ micro-ARPES to probe individual domains and reveal two contrasting surface terminations. We identify Co- and Se-terminated domains with characteristic surface states arising from bulk-surface connectivity of the material. Our work shows that termination-dependent surface contributions are essential for the reliable spectroscopic identification of altermagnetism and for assessing its presence across the family of layered materials.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.23375v1",
+    "published": "2026-10-16",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.22486",
+    "title": "Comment on \"Skyrmion Hall Effect in Altermagnets\"",
+    "authors": "Nicolai Timon Bechler, Jan Masell",
+    "abstract": "In their Letter, Jin et al. [Phys. Rev. Lett. 133, 196701 (2024)] predict a transverse velocity $v_y$ for skyrmions driven by spin-transfer torque (STT), known as skyrmion Hall effect (SkHE), in d-wave altermagnets. Usually, the SkHE emerges from the skyrmion's topological charge which here cancels between sublattices. Instead, Jin et al. attribute the SkHE to the dimensionless quadrupole tensor $A_{ij}$. The result in their Eq. (12) is fitted to micromagnetic simulations, yielding a finite value for $A_{xy}$. However, via the divergence theorem, $A_{ij}$ simplifies to a boundary integral that vanishes for a sufficiently smooth and localized texture. In this Comment, we substantiate our claim from Ref. [2] that the numerically observed SkHE by Jin et al. for a micromagnetic model with standard Zhang-Li STT in the individual sublattices is merely a discretization artefact.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.22486v1",
+    "published": "2026-10-15",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/kz4s-11k6",
+    "title": "d-wave altermagnetism and nonlinear transport in Dirac semimetals",
+    "authors": "Xin-Mei Wei, Zi-Ming Wang, Dong-Hui Xu",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/kz4s-11k6",
+    "published": "2026-10-15",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/ryxh-flnl",
+    "title": "Symmetry-enforced ferroelectric switching of two-dimensional altermagnetism",
+    "authors": "Jiangyu Zhao, Yibo Liu, Guoli Wu, Xinru Li, Ying Dai, Baibiao Huang, Yandong Ma",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/ryxh-flnl",
+    "published": "2026-10-14",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1021/acs.nanolett.6c02424",
+    "title": "All-Optical Ultrafast Pure Spin Current in the Altermagnet Cr2SO",
+    "authors": "Deepika Gill, Ruikai Wu, Wenhan Chen, Peter Elliott, Sangeeta Sharma, Sam Shallcross",
+    "abstract": "All-optical generation of pure spin current\u2500the flow of spin in the absence of a corresponding charge flow\u2500relies on symmetry based compensation between the two spin channels. 2D d-wave altermagnets, which in many respects are ideal spintronic materials due to their very low spin\u2013orbit coupling, possess a magnetic point group and highly anisotropic valley manifolds that would appear to preclude such current compensation, excluding them as materials for the ultrafast generation of pure spin current. Here we show that infrared valley excitation combined with a THz pulse envelope allows the generation of large and nearly 100% pure spin currents in the 2D altermagnet Cr2SO. Our approach is based on a valley selection rule coupling linearly polarized light to opposite spin valleys, along with the intrinsic momentum shift that a co-occurring THz pulse imbues a valley spin excitation with. These results provide a practical and all-optical route to the generation of pure spin current in 2D d-wave altermagnets, opening a path to lightwave control of spin in an environment with very low intrinsic spin\u2013orbit coupling.",
+    "source": "Nano Letters",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1021/acs.nanolett.6c02424",
+    "published": "2026-10-14",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1038/s41467-026-78163-y",
+    "title": "Signatures of bi-altermagnetism revealed by sublattice-specific circular dichroism in resonant inelastic X-ray scattering",
+    "authors": "Ganesha Channagowdra, Amol Singh, Hsiao-Yu Huang, Mizuki Furo, Bin Gao, Pengcheng Dai, Chein-Te Chen, Jan Kune\u0161, Atsushi Fujimori, Sang-Wook Cheong, Atsushi Hariki, Di-Jing Huang",
+    "abstract": "",
+    "source": "Nature Communications",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1038/s41467-026-78163-y",
+    "published": "2026-10-14",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/nyd5-ddcb",
+    "title": "Neel-vector-orientation induced direction-robust spin filtering in two-dimensional altermagnets",
+    "authors": "Xin Chen, Jin Zou, Lipeng Song, Wei Sun, Yiwen Wu, Luyao Zhu, Xu Cheng, Duo Wang, Biplab Sanyal",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/nyd5-ddcb",
+    "published": "2026-10-13",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/918g-3q7f",
+    "title": "Thermomagnonic torques in insulating altermagnets",
+    "authors": "Edward Schwartz, Hamed Vakili, Alexey A. Kovalev",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/918g-3q7f",
+    "published": "2026-10-13",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/8wt4-df1r",
+    "title": "Angular momentum splitter effect of d -wave axial phonons in orbital altermagnets",
+    "authors": "Dimos Chatzichrysafis, Alexander Mook",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/8wt4-df1r",
+    "published": "2026-10-13",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   }
+  ]
+ }
+}
