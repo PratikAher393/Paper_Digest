@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "period": "2026-10-19 to 2026-10-26",
- "total": 47,
+ "total": 76,
  "topic_order": [
   "MBE Growth of Superconductors",
   "Superconductor-Semiconductor Interfaces",
@@ -51,6 +51,23 @@
     ],
     "watched": [],
     "featured": false
+   },
+   {
+    "id": "arxiv:2610.27460",
+    "title": "Nanocrystalline cubic boron arsenide growth on GaAs(100) by gas source molecular beam epitaxy",
+    "authors": "Matthew A. Delmont, Yu Wu, Han-Hsuan Wu, Xiaoqing Pan, Christopher J. Palmstrom, Bolin Liao",
+    "abstract": "Cubic boron arsenide (c-BAs) is a promising ultrahigh thermal conductivity semiconductor, but its direct synthesis on lattice-mismatched substrates remains challenging. Here, we demonstrate the synthesis of nanocrystalline c-BAs thin films on GaAs(100) substrates using gas source molecular beam epitaxy. X-ray photoelectron spectroscopy reveals an optimal growth temperature window of 250-400 C to maintain near stoichiometry and suppress severe arsenic loss. Surface and structural characterizations via atomic force microscopy, reflection high-energy electron diffraction, and grazing-incidence X-ray diffraction demonstrate a Volmer-Weber 3D island growth mode and a preferential crystallographic alignment with the GaAs substrate. High-resolution transmission electron microscopy confirms a chemically sharp interface without gallium interdiffusion into the c-BAs layer. These findings establish an initial step for the integration of c-BAs into advanced thermal and optoelectronic platforms.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.27460v1",
+    "published": "2026-10-20",
+    "score": 6,
+    "matched": [
+     "molecular beam epitaxy"
+    ],
+    "watched": [],
+    "featured": false
    }
   ],
   "Superconductor-Semiconductor Interfaces": [
@@ -74,6 +91,25 @@
     "featured": true
    },
    {
+    "id": "arxiv:2610.25943",
+    "title": "Ferroelastic domain wall driven glassy dynamics and photoresponse in a SrTiO$_3$ (111) two-dimensional electron gas",
+    "authors": "Jyotirmay Maity, Manav Beniwal, Pranab Hazra, Sumit Tomar, Srimanta Middey",
+    "abstract": "The (111) orientation of SrTiO$_3$ (STO)-based heterostructures has emerged as a versatile platform for two-dimensional electron gases (2DEGs), yet the influence of STO's polar ferroelastic domain-wall (DW) network on charge transport remains largely unexplored. Here we study AlO$_x$/STO (111) interfaces hosting 2DEGs of different carrier densities. In the lower-density 2DEG, low-temperature transport exhibits thermal hysteresis, slow resistance relaxation, cooling-rate dependence, and memory effects, signaling glasslike electron dynamics. The relaxation is strongly non-monotonic in temperature, increasing below $\\sim$80 K, peaking near 25 K, and vanishing below $\\sim$12 K, tracking the established evolution of the ferroelastic DW state of bulk STO rather than any electronic energy scale, which identifies the DW network as its origin. These signatures are absent in a second, more metallic interface with much higher carrier density, demonstrating that the electron-DW coupling can be tuned. We further show that polar DWs govern the photoresponse: the persistent photoconductivity rises sharply below $\\sim$80 K, coinciding with the onset of DW polarity. Together, these results establish polar ferroelastic DWs as a carrier-density-tunable electronic degree of freedom in STO (111)-based 2DEGs, opening routes to manipulate 2DEG properties through topological defects.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.25943v1",
+    "published": "2026-10-19",
+    "score": 6,
+    "matched": [
+     "two-dimensional electron gas",
+     "heterostructure",
+     "resist"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
     "id": "doi:10.1021/acsnano.6c12747",
     "title": "Electric-Field Tunable Spin Texture in Dual-Gated HfS2/Graphene van der Waals Heterostructures",
     "authors": "Haozhe Yang, Zhendong Chi, Eoin Dolan, Josep Ingla-Ayne\u0301s, Beatriz Marti\u0301n-Garci\u0301a, Witold Skowron\u0301ski, Marco Gobbi, Andrey Chuvilin, Luis E. Hueso, Fe\u0300lix Casanova",
@@ -90,9 +126,65 @@
     ],
     "watched": [],
     "featured": false
+   },
+   {
+    "id": "arxiv:2610.29694",
+    "title": "Effect of Annealing on Maze Domains in Topological Insulator - Magnetic Multilayer Heterostructures",
+    "authors": "Benjamin A. Brereton, Soumyarup Hait, Christy J. Kinane, Francesco Maccherozzi, Ahmet Yagmur, Satoshi Sasaki, Thomas A. Moore, Sean Langridge, Christopher H. Marrows",
+    "abstract": "Combining topological insulators with chiral magnetic multilayers offers the opportunity to greatly enhance the spin-orbit torque (SOT) driven manipulation of hosted spin textures, however this also exposes devices to the often poor temperature stability of the commonly used, Bi$_2$X$_3$-based (X is a chalcogenic element), topological insulator films. In this work we demonstrate through in-situ-annealing and polarised neutron reflectometry that the multilayer at a Bi$_2$Se$_3$ interface remains magnetically robust up to a temperature of 350 $^{\\circ}$C: even as the Bi$_2$Se$_3$ epilayer structurally deteriorates. Through x-ray photoemission electron microscopy, an intermediate annealing temperature of $\\sim$ 200 $^{\\circ}$C was found to improve the domain ordering of the multilayer, allowing for field-induced skyrmion nucleation, all whilst sustaining minimal damage to the topological insulator",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29694v1",
+    "published": "2026-10-21",
+    "score": 4,
+    "matched": [
+     "heterostructure",
+     "topological insulator"
+    ],
+    "watched": [],
+    "featured": false
    }
   ],
   "Nanowire Selective Area and Template-Assisted Growth": [
+   {
+    "id": "arxiv:2610.29484",
+    "title": "Quantum Interference Enhanced Rectification in Mesoscopic Nanowires",
+    "authors": "T. J. Osborne, B. Braunecker, H. F. Legg",
+    "abstract": "Nanoscale nonreciprocal elements are needed to control signal flow in scalable quantum technologies, but existing nonreciprocal components are often bulky. Here, we show that a strongly nonreciprocal current-voltage relation can arise entirely from coherent elastic scattering in a mesoscopic Rashba nanowire with gate-defined scatterers. We first identify the symmetry constraints that enforce reciprocal transmission in a phase coherent conductor even when inversion and time-reversal symmetry are broken. We then show how gates that are capacitively coupled to the leads, together with a magnetic scatterer or transverse subband mixing, can remove these constraints. In the weak-scattering regime, nonreciprocal conductance originates from interference between distinct backscattering paths. In the strong-scattering regime, nonreciprocity can be resonantly enhanced by the hybridization of the transmitting channel with bound states that arise from a higher transverse subband or spin-split band. In this regime, we find that a bias-induced change in the gate potentials of about one percent can produce an order-unity diode response, i.e., electrons are transmitted almost as in a clean wire for one bias polarity, whereas for the other polarity the current is strongly suppressed.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29484v1",
+    "published": "2026-10-21",
+    "score": 8,
+    "matched": [
+     "nanowire",
+     "rashba",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.26158",
+    "title": "Nanowire-Assisted Epitaxial Lateral Overgrowth of Planar GaN(0001) on Diamond(100)",
+    "authors": "Brijmohan Paramanik, Mayur Shinde, Subhranshu Sekhar Sahu, Soumyadip Chatterjee, Prajwal Pandey, Anshul Jain, Himanjal Bhattacharyya, Alpesh Donga, Apurba Laha",
+    "abstract": "GaN-on-diamond heterostructures are promising for high-power and high-frequency electronics, however, direct epi- taxial growth on diamond (100) remains challenging due to severe lattice and thermal mismatches, which induce high threading dislocation densities. To overcome this challenge, we have used Plasma Assisted Molecular Beam Epitaxy (PAMBE) to grow wurtzite GaN layers on diamond(100) substrates using nanowire-assisted epitaxial lateral overgrowth (ELOG). Two nanowire templates (NW100, NW600) were benchmarked against a nanowire-free reference (NW000). High-resolution XRD, \u03c6 -scans, (0002) pole figures, and reciprocal space mapping show that NW100 attains the lowest dislocation density (5.51 x 10-4 nm-2) and microstrain (2.736 x 10-3), the narrowest (0002) reflection, and a c-axis lattice parameter (5.1821 \u00c5) within 0.06% of the bulk value; NW000, in contrast, exhibits a contracted c-axis (5.1633 \u00c5) and elevated dislocation density (6.26 x 10-4 nm-2), consistent with residual tensile stress. Cross-sectional TEM con- firms the intended diamond/AlN/nanowire/ELOG/planar-GaN layer sequence and shows threading dislocations bending into near-lateral trajectories, directly evidencing defect filtering by the nanowire template. Together, these results estab- lish nanowire-assisted ELOG as an effective strategy to suppress dislocation propagation and recover near-bulk lattice parameters in GaN-on-diamond heteroepitaxy, providing a structurally well-defined platform for device integration.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.26158v1",
+    "published": "2026-10-19",
+    "score": 8,
+    "matched": [
+     "molecular beam epitaxy",
+     "heterostructure",
+     "nanowire"
+    ],
+    "watched": [],
+    "featured": true
+   },
    {
     "id": "doi:10.1103/yjsv-yhxk",
     "title": "Flux-driven delocalization transition in disordered topological insulator nanowires",
@@ -112,6 +204,24 @@
     "featured": false
    },
    {
+    "id": "arxiv:2610.31508",
+    "title": "Spin-Dependent Transport in One-Dimensional Mercury- and Silver-Mediated DNA Nanowires",
+    "authors": "Arpan De, William Livernois, Simon Vecchioni, Yoel P. Ohayon, M. P. Anantram",
+    "abstract": "Metallo-DNA nanowires serve as a versatile, programmable scaffold for molecular-scale electronics. In this work, we demonstrate that periodic heavy-metal coordination fundamentally reshapes the electronic landscape of DNA, generating dispersive, metal-centered conduction bands rather than isolated localized states. Driven by enhanced inter-layer coupling, where second nearest-neighbor hopping plays a crucial role: the conduction bandwidth can approach 1 eV, more than double that of canonical DNA. These broad bands suggest enhanced robustness of transport against structural fluctuations. As a result of relativistic effects, in these quasi-one-dimensional materials, spin-orbit (SO) coupling enhances band dispersion and governs spin-dependent transport. We predict that although ligand hybridization reduces atomic SO splitting, the effective SO splitting in these nanowires is comparable to the next-nearest-neighbor hopping strength, which results in considerable spin mixing. We find that Hg2+-coordinated nanowire exhibit pronounced spin-flip conductance comparable to spin-conserving conductance across the LUMO manifold. This efficient spin conversion remains robust over extended molecular lengths and is accompanied by a set of highly delocalized unoccupied states with oscillating nodal structures, readily accessible under low-bias transport measurements. In contrast, the Ag+-coordinated nanowires exhibit weak spin-flip scattering that is more than an order of magnitude smaller than spin-preserving transport. This duality establishes the choice of coordination metal as a decisive parameter to govern metal-metal interaction, electron delocalization, and spin-dependent transport. Overall, our findings demonstrate how relativistic effects and quantum confinement intersect in these bio-templated, quasi-one-dimensional molecular conductors.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31508v1",
+    "published": "2026-10-22",
+    "score": 6,
+    "matched": [
+     "nanowire",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
     "id": "doi:10.1021/acs.nanolett.6c02891",
     "title": "Pixelated Tellurium Nanowire Assemblies for Flexible and Polarization-Driven Multimodal Anticounterfeiting",
     "authors": "Yingtao Zhao, Hao Liu, Jiajun Liu, Shiyu Liu, Zhenhua Yang, Jinshi Zhao, Jian Zhu",
@@ -125,6 +235,24 @@
     "matched": [
      "nanowire",
      "lift-off"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1021/acs.nanolett.6c04163",
+    "title": "Complementary Metal-Oxide Semiconductor-Compatible Phototransistor Platform for Neuromorphic Broadband Vision",
+    "authors": "Zhongyu Liu, Zhenghao Xu, Li Zheng, Xuetong Zhou, Lingyan Shen, Xinhong Cheng, Zhijun Ning",
+    "abstract": "Photodetection and neuromorphic computing promises sensing at the edge, yet most optoelectronic synapses lack spectral breadth or scalable silicon integration. Here we report a dual-gate synaptic transistor integrating colloidal quantum dots (CQDs) with a silicon-on-insulator (SOI) channel in a complementary metal-oxide semiconductor (CMOS)-compatible platform. This architecture synergistically combines the SOI channel for efficient charge transport and signal amplification with the CQD layer serving a dual role as a broadband absorber (300\u20131700 nm) and a charge-trap medium. The device exhibits a responsivity of 639 A W\u20131 and specific detectivity exceeding 3 \u00d7 1012 Jones at 1550 nm, parallelly emulating short- and long-term plasticity, multilevel conductance tuning, and highly programmable synaptic dynamics. The top gate enables reversible potentiation and depression, and self-powered operation supports low-power sensing and light-driven learning. We demonstrate system-level utility in a synaptic array that achieves pattern recognition with peak accuracy exceeding 96%, establishing a pathway to silicon-integrated, energy-efficient neuromorphic vision.",
+    "source": "Nano Letters",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1021/acs.nanolett.6c04163",
+    "published": "2026-10-26",
+    "score": 4,
+    "matched": [
+     "silicon-on-insulator",
+     "soi"
     ],
     "watched": [],
     "featured": false
@@ -164,6 +292,23 @@
     "featured": false
    },
    {
+    "id": "arxiv:2610.28967",
+    "title": "Strain-Induced Interfacial Bond Evolution and Facet-dependent Strain Response of Electronic Properties in Oxidized Silicon Nanowires",
+    "authors": "Yasir Mahmood, Daniel Wines, Viviana Dovale-Farelo, Kamal Choudhary, Lucas M Hale",
+    "abstract": "Silicon nanowires (Si NWs) have emerged as promising candidates for next-generation nanoelectronic devices due to their tunable electronic properties, and compatibility with aggressive scaling requirements. The integration of strain further enhances their performance by modulating carrier mobility, band structure, and transport behavior without altering material chemistry. Within the NW, the silicon-silicon dioxide (Si-SiO$_{2}$) interface serves as a critical region where strain redistribution and suboxide bonding collectively influence the mechanical and electronic response. Here, we combine reactive force field molecular dynamics and first-principles calculations to investigate how oxidation-induced interfacial structure and crystallographic facet orientation govern strain-dependent bond evolution and facet-dependent strain response of electronic properties in oxidized Si NWs. Simulated dry thermal oxidation generates chemically realistic Si-SiO$_{2}$ interfaces, enabling direct characterization of bond order redistribution and stress gradient development across the interface under tensile strain. Interfacial Si-Si bonds exhibit elongation and reduced bond order associated with partial oxidation states, leading to localized stress concentration and preferential bond rupture. Complementary density functional theory calculations on facet-specific models reveal that orientation-dependent interfacial bonding modulates facet-dependent strain response of electronic properties. Together, these results establish a direct coupling between interfacial suboxide chemistry, mechanical deformation, and electronic structure, providing atomistic insight into strain-modulated behavior at oxidized silicon interfaces in faceted NWs.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.28967v1",
+    "published": "2026-10-20",
+    "score": 4,
+    "matched": [
+     "nanowire"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
     "id": "doi:10.1063/5.0352212",
     "title": "Intracavity stimulated-emission amplification of fluorescence quenching for ultrasensitive Cd2+ detection in a single nanowire laser",
     "authors": "Xiaohong Shen, Zhitao Mao, Yilong Zhou, Lingxiao He, Mengyi Yu, Yan Liu, Yipei Wang, Xiaoqin Wu, Yi Xu",
@@ -182,6 +327,27 @@
    }
   ],
   "Nanofabrication and Cleanroom Processes": [
+   {
+    "id": "arxiv:2610.32529",
+    "title": "Effect of oxygen plasma treatment on the structural and superconducting properties of atomic-layer-deposited NbN thin films",
+    "authors": "Nitesh Yerra, Mustafa Teke, Felix Otto, Marco Diegel, Detlef Born, Uwe H\u00fcbner, Nan Du, Mario Ziegler, Sahitya Varma Vegesna, Heidemarie Kr\u00fcger",
+    "abstract": "Surface oxidation is a common concern for ultrathin NbN superconducting devices, yet which superconducting properties it affects has not been established for films grown by plasma-enhanced atomic layer deposition. We expose NbN films about 11.4 nm thick to an O$_2$ plasma for 0 to 60 s, which oxidizes the surface without etching the film, and characterize the same sample series by X-ray diffraction, X-ray photoelectron spectroscopy (XPS), and transport measurements on 500 nm wide nanowires. XPS of the surface and the underlying layer shows that the plasma converts the surface to Nb$_2$O$_5$, whereas the bulk of the treated film is chemically identical to that of the untreated film. Crystalline $\u03b4$-NbN remains intact. During exposure, the total film thickness rises and saturates between 40 and 60 s, indicating self-limiting surface oxide growth. The normal-state resistivity rises by 21% (dc) and 25% (optical) with the plasma dose, while the critical temperature and transition width are unchanged. The switching current densities of 4.9-6.2 MA/cm$^2$ at 4.2 K show no systematic dependence on the plasma dose. Their temperature dependence follows the dirty-limit depairing current of Kupriyanov and Lukichev, and the extrapolated switching currents reach 39-46% of the depairing current calculated from the optical resistivity and diffusion coefficient, in agreement with the width dependence reported for nanowires from the same process. The oxygen signature is confined to temperatures near $T_c$, where the supercurrent of the treated wires vanishes at least 0.5 K earlier than that of the untreated wire, consistent with a partially oxidized surface layer that acts on the film by the proximity effect. At these doses, oxygen narrows the temperature range of the supercurrent from above but does not systematically reduce the low-temperature current-carrying capacity of the wires.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.32529v1",
+    "published": "2026-10-23",
+    "score": 10,
+    "matched": [
+     "nanowire",
+     "atomic layer deposition",
+     "resist",
+     "proximity effect",
+     "supercurrent"
+    ],
+    "watched": [],
+    "featured": true
+   },
    {
     "id": "doi:10.1063/5.0335600",
     "title": "Frequency improvement and asymmetry characteristics of tri-stripe AlGaN/GaN MSM-2DEG varactors",
@@ -214,6 +380,24 @@
     "url": "https://doi.org/10.1063/5.0352389",
     "published": "2026-10-26",
     "score": 7,
+    "matched": [
+     "atomic layer deposition",
+     "ald"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "arxiv:2610.32553",
+    "title": "Modification of optical properties in ultrathin ALD-grown NbN layers using oxygen plasma treatment",
+    "authors": "Mustafa Teke, Nitesh Yerra, Alireza Sadeghi, Mario Ziegler, Detlef Born, Nan Du, Marco Diegel, Uwe H\u00fcbner, Sahitya V. Vegesna, Heidemarie Kr\u00fcger",
+    "abstract": "NbN thin films with a nominal thickness of 10 nm were grown by atomic layer deposition (ALD) on Al$_2$O$_3$-buffered Si substrates and treated with oxygen plasma for 0 s (untreated), 20 s, 40 s, and 60 s to investigate oxygen-induced changes in their optical properties. Spectroscopic ellipsometry (SE) measurements were performed before and after oxygen plasma treatment over the ultraviolet-visible-near-infrared (1.24-6.20 eV) and infrared (0.041-0.827 eV) spectral ranges. Film thickness determined by X-ray reflectivity (XRR) was used as a fixed parameter in the optical modeling to extract the dielectric function, optical constants, and effective free-carrier concentration. We observed the emergence of a distinct absorption feature near 4.9 eV following oxygen plasma treatment, consistent with the oxidation of the NbN surface and the resulting change in its optical properties. Increasing the treatment time from 0 to 60 s reduced the effective carrier concentration from $1.20 \\times 10^{22}$ to $1.03 \\times 10^{22}$ cm$^{-3}$ and the effective carrier mobility from 2.44 to 2.27 cm$^2$ V$^{-1}$ s$^{-1}$. The obtained results provide a basis for understanding the effects of oxygen plasma treatment on NbN thin films.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.32553v1",
+    "published": "2026-10-23",
+    "score": 5,
     "matched": [
      "atomic layer deposition",
      "ald"
@@ -277,6 +461,24 @@
    }
   ],
   "Germanium and Sn-Ge Epitaxy": [
+   {
+    "id": "arxiv:2610.29973",
+    "title": "NTL amplification in a SuperCDMS-style detector fabricated from a University of South Dakota-grown germanium crystal",
+    "authors": "Dongming Mei, Gerardo Gonzalez, William Baker, Mark Platt, Nader Mirabolfathi",
+    "abstract": "Neganov-Trofimov-Luke (NTL) amplification enables eV-sub-keV detection thresholds for low-mass dark-matter and coherent elastic neutrino-nucleus scattering experiments. We evaluated two University of South Dakota (USD)-grown germanium crystals fabricated as SuperCDMS-style four-channel athermal-phonon detectors and operated near 10 mK. The crystals had electrically active impurity concentrations near $10^10~\\mathrm^-3$ and etch-pit densities of $300$-$7000~\\mathrm^-2$. Contact-free biasing produced no resolvable amplification. However, after depositing a 600 nm aluminum bias contact, Detector~2 exhibited clear voltage-dependent NTL gain. The reconstructed channel-B energy increased from approximately 3.9 keV at 0 V to 34.9 keV at 40 V, corresponding to an 8.9-fold enhancement. Statistical centroid uncertainties were below 0.3%, while low-bias fits yielded effective prompt- and NTL-phonon response coefficients of $(6.77\\pm0.82)%$ and $(4.77\\pm0.20)%$, respectively, excluding systematic uncertainties. These results demonstrate the feasibility of USD-grown germanium for SuperCDMS-style high-voltage phonon detectors and highlight the importance of both crystal quality and contact fabrication in achieving NTL amplification.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29973v1",
+    "published": "2026-10-21",
+    "score": 8,
+    "matched": [
+     "germanium",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": true
+   },
    {
     "id": "doi:10.1103/zvhv-klhf",
     "title": "Design and optimization of spin dynamics in germanium quantum dots: g -factor modulation, geometry-induced dephasing sweet spots, and phonon-induced relaxation",
@@ -351,6 +553,27 @@
   ],
   "Josephson and Proximity Effects": [
    {
+    "id": "arxiv:2610.26015",
+    "title": "Phase engineering of odd parity state in a quantum dot Josephson junction",
+    "authors": "Shohei Kobayashi, Tyler Lindemann, Sergei Gronin, Geoffrey Gardner, Peter Stano, Daniel Loss, Michael Manfra, Seigo Tarucha, Sadashige Matsuo",
+    "abstract": "Controlling fermion parity in quantum-dot Josephson junctions (QDJJs) enables access to novel superconducting physics. While parity transitions are usually tuned electrically, we study phase-induced transitions in a strongly coupled QDJJ using the superconducting phase difference across the dot terminals, denoted by $\u03c6$. We find that this phase allows control over the ground state parity, with parity transitions observed as the Andreev bound states (ABSs) energies crossing zero. These crossings occur near $\u03c6= \u03c0$, and their behavior is in good correspondence to a simple model considering a single-level quantum dot proximitized by a superconductor. These results place phase-controlled QDJJ arrays as a promising platform for exploring exotic phenomena such as Majorana zero modes.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.26015v1",
+    "published": "2026-10-19",
+    "score": 18,
+    "matched": [
+     "phase-controlled",
+     "josephson junction",
+     "andreev bound state",
+     "majorana",
+     "parity"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1088/1361-6668/aeb72e",
     "title": "Edge-localized supercurrent transport in Josephson junctions with Al/Ni multilayer barriers",
     "authors": "Ivan P Nevirkovets, Mikhail A Belogolovskii, John B Ketterson",
@@ -366,6 +589,47 @@
      "fraunhofer",
      "squid",
      "supercurrent"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.29124",
+    "title": "Magnetization and Josephson current coupling drives the Josephson diode effect in FeTe0.55Se0.45 van der Waals junctions",
+    "authors": "Seung-Hyun Shin, Cheong-Eung Ahn, Chang-Won Choi, Taekoo Oh, Si-Young Choi, Genda Gu, Gil Young Cho, Gil-Ho Lee",
+    "abstract": "The Josephson diode effect (JDE) reflects symmetry breaking in the current-phase relation (CPR) of Josephson junctions, yet establishing its microscopic origin is often challenging. We investigate the mechanism of the JDE in van der Waals Josephson junctions based on FeTe0.55Se0.45, a platform where superconductivity, topology, and magnetism may coexist at the interface. Our devices exhibit a robust zero-field diode response with asymmetric switching currents. Magnetic-field measurements reveal a hysteretic Fraunhofer pattern and magnetic-resonance-induced voltage feature, evidencing interfacial magnetism coupled to the Josephson current. Microwave response further shows half-integer Shapiro steps with asymmetric evolution, demonstrating contributions from both a second harmonic and a magnetization-induced phase shift in CPR. Numerical simulations combining magnetization dynamics and Josephson phase dynamics reproduce these features, confirming that the JDE originates from interfacial coupling between magnetization and Josephson current. This work provides a transport-based route to pinpoint the microscopic mechanism of the JDE, establishing a platform for exploring magnetically active interfacial superconductivity, and enables the design of nonreciprocal superconducting devices in clean, interface-engineered van der Waals systems.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29124v1",
+    "published": "2026-10-21",
+    "score": 12,
+    "matched": [
+     "current-phase relation",
+     "josephson junction",
+     "fraunhofer",
+     "shapiro"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.29021",
+    "title": "Josephson effect in symmetry-mismatched van der Waals hybrid junctions of NbSe2-Bi2Sr2CaCu2O8+x and NbSe2-Bi2Sr2-xLaxCuO6+y",
+    "authors": "Yuying Zhu, Ziye Liu, Hongtao Yan, Lin Zhao, Xingjiang Zhou, Qi-Kun Xue, Ding Zhang",
+    "abstract": "Coupling superconductors of different symmetries may lead to emergent quantum phenomena but experimental studies on heterojunctions made of lattice-mismatched crystals are scarce. Here, we fabricate Josephson junction by van der Waals stacking NbSe2 flakes on freshly cleaved surfaces of Bi2Sr2CaCu2O8+x or Bi2Sr2-xLaxCuO6+y. We obtain pronounced Josephson currents across the heterojunctions at temperatures below 7 K. The Josephson coupling strength, characterized by the product of the critical Josephson current I_c and the normal state resistance R_n, can reach about 0.3 mV, much exceeding the values previously reported in Pb-Bi2Sr2CaCu2O8+x or Nb-Bi2Sr2CaCu2O8+x junctions. Microwave irradiation induces integer Shapiro steps. We also observe the Fraunhofer diffraction pattern by applying an in-plane magnetic field. We compare our results with the theoretical calculations that take into account the coherent tunneling and the order parameter mixing. Our work demonstrates the hybrid junctions as a distinctive platform for addressing pairing symmetry and emergent quantum phenomena.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29021v1",
+    "published": "2026-10-21",
+    "score": 12,
+    "matched": [
+     "resist",
+     "in-plane magnetic field",
+     "josephson junction",
+     "fraunhofer",
+     "shapiro"
     ],
     "watched": [],
     "featured": true
@@ -391,6 +655,25 @@
     "featured": true
    },
    {
+    "id": "doi:10.1103/81fz-49c6",
+    "title": "Transparency-controlled multiple charge transfer in superconducting junctions with local shot-noise scanning tunneling spectroscopy",
+    "authors": "Yudai Sato, Maialen Ortego Larrazabal, Jian-Feng Ge, Ingmar Swart, Doohee Cho, Wolfgang Belzig, Juan Carlos Cuevas, Milan P. Allan, Jiasen Niu",
+    "abstract": "Charge transport in superconducting junctions at finite voltages is governed by Andreev reflections, including multiple Andreev reflections, which are processes that enable multiple charge transfer, a hallmark that shot noise can directly quantify. Since the effective charge extracted from shot-noise measurements varies with the transparency of the junction, systematic control of transparency is essential but experimentally challenging. Here, we present shot-noise scanning tunneling microscopy measurements enabled by a newly developed amplifier, allowing access to different transparency regimes. We perform shot-noise measurements on Pb(111) with tunable transparency at 2.2 K and observe that the shot noise evolves from a single-electron tunneling regime to multiple charge-transfer regimes as transparency increases. Our results are quantitatively consistent with theoretical simulations of Andreev reflections and multiple Andreev reflections for a single-channel system. These results establish junction transparency as the key parameter governing the evolution of charge transport and demonstrate that noise STM is a powerful platform for investigating microscopic charge transport mechanisms with controlled junction transparency at the atomic scale.",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/81fz-49c6",
+    "published": "2026-10-26",
+    "score": 10,
+    "matched": [
+     "junction transparency",
+     "andreev reflection",
+     "multiple andreev reflection"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1021/acs.nanolett.6c02734",
     "title": "Resist-Free Shadow Deposition Using Silicon Trenches for Josephson Junctions in Superconducting Qubits",
     "authors": "Tathagata Banerjee, Stephen Daniel Funni, Saswata Roy, Judy J. Cha, Valla Fatemi",
@@ -408,6 +691,63 @@
     ],
     "watched": [],
     "featured": true
+   },
+   {
+    "id": "arxiv:2610.29901",
+    "title": "Superconducting parametric amplifiers based on arrays of unequal Josephson junction elements",
+    "authors": "Boris Chesca, Tom Dixon, Narendra Acharya, Renuka D. Pothuraju, Jacob W. Dunstan, Connor D. Shelly, Oscar W. Kennedy",
+    "abstract": "Impedance matching is a crucial feature of an amplifier used to increase its instantaneous bandwidth and is typically achieved using static LC resonators. Here we show an approach to impedance matching in parametric amplifiers using arrays of unequal Josephson-junction-based elements (rf/dc SQUIDs, SNAILs, etc). The elements act either as small-footprint flux-tunable inductors forming an impedance-matching circuit, or 'active' amplifier elements which result in amplifier gain. We develop an analytical theory describing these systems, predicting a quasi-non-periodic amplifier frequency and gain modulation with applied flux and the broadening of gain bandwidths. We demonstrate this in devices using arrays of flux-focused SNAILs where flux biasing varies across the array. We find instantaneous bandwidths of 200 MHz with $>$17 dB of gain centred at $\\sim$5.4 GHz in a device without a static impedance matcher. This broadening of amplifier bandwidth is stable with $>$100 MHz bandwidth at 17 dB gain across $>$1.2 GHz tunable bandwidth. Our analytical model captures flux dependence and qualitatively reproduces gain-bandwidths giving confidence in our understanding of these systems and allowing operational figures of merit to be optimised in future devices.",
+    "source": "arXiv",
+    "category": "physics.app-ph",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29901v1",
+    "published": "2026-10-21",
+    "score": 10,
+    "matched": [
+     "josephson junction",
+     "squid",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.32839",
+    "title": "Finite-Temperature Transconductance of Multiterminal Josephson Junctions with Topological Andreev Spectra",
+    "authors": "Gleb S. Seleznev, David C. Ohnmacht, Wolfgang Belzig",
+    "abstract": "Multiterminal Josephson junctions (MTJJs) provide a controllable platform for engineering topological Andreev spectra. At zero temperature, Andreev bound states (ABSs) with nonzero Chern numbers give rise to quantized transconductance between superconducting terminals. We derive the finite-temperature transconductance of MTJJs using linear-response theory. We first demonstrate the destructive role of temperature: changes in the thermal occupations of the ABSs destroy exact transconductance quantization. We then show that finite temperature can also play a constructive role by making the transconductance sensitive to finite-energy topological crossings hidden from the zero-temperature response. Our results establish the thermal limitations of transconductance quantization and identify finite-temperature transport as a probe of otherwise inaccessible topology in Andreev spectra.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.32839v1",
+    "published": "2026-10-23",
+    "score": 9,
+    "matched": [
+     "josephson junction",
+     "andreev bound state"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.27499",
+    "title": "Rashba-controlled emergence and reversal of critical-field anisotropy in p-wave magnet--superconductor hybrids",
+    "authors": "Rui-Xiang Cheng, Zhao Gong, Dong-Hui Xu, Chui-Zhen Chen",
+    "abstract": "We show that tuning Rashba spin-orbit coupling can change the in-plane field direction along which an $s$-wave superconductor is most susceptible to Zeeman depairing. We consider a two-dimensional $s$-wave superconductor subject to an odd-parity exchange field induced by a $p$-wave magnet. Without Rashba coupling, the out-of-plane exchange field enhances the in-plane critical field but leaves its angular response exactly isotropic, despite the anisotropic magnetic spin texture. Minimizing the Bogoliubov--de Gennes grand potential over uniform singlet pairing, we find that increasing Rashba coupling first generates and then reverses the principal-axis critical-field contrast, switching the minimum-critical-field direction by $90^{\\circ}$. Equal principal-axis fields at the intervening compensation point coexist with residual angular modulation. We interpret the reversal through competing momentum-dependent depairing contributions from the magnetic and Rashba spin textures, while the on-site singlet pairing channel remains unchanged. Direction-dependent discontinuous collapses of the order parameter further shape the critical-field curves. These results identify a tunable directional paramagnetic response within the uniform-pairing sector. In heterostructures with sufficient electrostatic tunability of interfacial Rashba coupling, this reversal would enable gate control of the easy-depairing axis without reorienting the magnetic texture.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.27499v1",
+    "published": "2026-10-20",
+    "score": 7,
+    "matched": [
+     "heterostructure",
+     "rashba",
+     "spin-orbit coupling",
+     "parity"
+    ],
+    "watched": [],
+    "featured": false
    },
    {
     "id": "doi:10.1103/ytfq-5c74",
@@ -496,6 +836,61 @@
     "featured": false
    },
    {
+    "id": "arxiv:2610.30556",
+    "title": "Field-free superconducting diode and tunable vortex dynamics in NbN/FePt stripe-domain heterostructures",
+    "authors": "Juan C. Zapata, Emilio De Biasi, Martin Sirena, Jeehoon Kim, Nestor Haberkorn",
+    "abstract": "We demonstrate reconfigurable, field-free superconducting diode behavior in NbN/FePt and NbN/AlN/FePt heterostructures with remanent stripe domains in the FePt layer. NbN films 10 nm thick are capped either directly with FePt or through a thin AlN spacer, which reduces electronic proximity effects while preserving magnetic coupling through stray fields. At zero applied magnetic field, the superconducting diode efficiency reaches approximately 50--60% in NbN/FePt when the stripes are perpendicular to the current and is strongly reduced when they are parallel. The diode effect persists in NbN/AlN/FePt with efficiencies reaching approximately 35--40%, supporting a magnetic origin of the nonreciprocity. We interpret the response as asymmetric vortex transport in the remanent magnetic landscape, with preferential edge vorticity and a Lorentz force that favors inward flux injection or outward motion depending on current polarity. Under applied perpendicular magnetic fields, the interplay between the external field and the magnetic stray fields modifies the flux-flow instability and the apparent instability velocity inferred from transport, with values below those reported for bare NbN films. These results show that stripe-domain ferromagnetic overlayers provide a reconfigurable route to control superconducting nonreciprocity and flux-flow stability in NbN-based heterostructures.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.30556v1",
+    "published": "2026-10-22",
+    "score": 5,
+    "matched": [
+     "heterostructure",
+     "proximity effect"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "arxiv:2610.31843",
+    "title": "Optical signatures of Rashba--Dresselhaus coupling across Franz--Keldysh and Landau regimes in two-dimensional semiconductors",
+    "authors": "Bahruz Suleymanli, Samir Tariverdiev, B. Tanatar",
+    "abstract": "We develop a unified theory of the interband optical response of a two-dimensional semiconductor with simultaneous Rashba and Dresselhaus spin-orbit couplings in electric and magnetic fields. In crossed fields, the in-plane electric field generates an effective spin-orbit drift field that modifies the Landau spectrum and spinor states, while at zero magnetic field the problem maps onto Landau--Zener spin dynamics.At zero external fields, the total joint density of states above the band gap remains unchanged, while characteristic subgap structures appear. Pure Rashba coupling produces an inverse square root singularity, whereas a finite Dresselhaus term gives a step and a logarithmic peak, allowing the two couplings to be distinguished optically. At zero magnetic field, the Franz--Keldysh response shows a crossover from diabatic to adiabatic spin dynamics as the electric field is reduced. In the weak-field Rashba regime, the field-free singularity becomes a finite peak whose height scales as $\\mathcal E^{-1/3}$ and whose position approaches $E_g-E_{\\rm SO}$, providing a direct measure of the Rashba energy. In a perpendicular magnetic field, spin-orbit coupling shifts and splits the Landau absorption lines and produces anticrossings without changing their total weights. The Rashba splitting changes from a $\\sqrt{B}$ dependence at weak fields to a linear dependence at strong fields. Finally, in crossed electric and magnetic fields, the electric field broadens the Landau lines and drives a continuous crossover toward the Franz--Keldysh regime, while spin-orbit coupling produces opposite shifts and different widths for the two members of each doublet.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31843v1",
+    "published": "2026-10-22",
+    "score": 5,
+    "matched": [
+     "rashba",
+     "spin-orbit coupling"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "arxiv:2610.29739",
+    "title": "Electric-field tunable spin texture in dual-gated HfS$_2$/graphene van der Waals heterostructures",
+    "authors": "Haozhe Yang, Zhendong Chi, Eoin Dolan, Josep Ingla-Ayn\u00e9s, Beatriz Mart\u00edn-Garc\u00eda, Witold Skowro\u0144ski, Marco Gobbi, Andrey Chuvilin, Luis E. Hueso, F\u00e8lix Casanova",
+    "abstract": "Spin-charge interconversion provides the essential link between spin information and electrical signals in spintronic devices. In spin-orbit coupled systems, spin-charge interconversion can contain multiple components associated with different spin-polarization directions, reflecting the underlying spin texture. Tuning this spin texture therefore provides a way to control not only the magnitude of spin-charge interconversion, but also the balance among its different components. Graphene-based van der Waals heterostructures provide an attractive platform for this purpose because interfacial spin-orbit coupling can host multiple spin-charge interconversion channels that couple to different spin-polarization directions. Here, we demonstrate electric-field control of spin texture in a dual-gated HfS$_2$/graphene van der Waals heterostructure, where independent control of carrier density and vertical electric field allows us to disentangle electrostatic doping from electric field-induced spin-orbit effects. Nonlocal spin precession measurements show that near zero vertical electric field, spin-charge interconversion is dominated by a spin Hall component with out-of-plane spins. Increasing the vertical electric field enhances additional in-plane spin components with Rashba-Edelstein-like character, including both parallel and perpendicular to the charge current contributions. These results provide experimental evidence that a vertical electric field can reconfigure the effective spin texture and control the corresponding spin-charge interconversion components, demonstrating electrical tunability of spin-orbit functionalities.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29739v1",
+    "published": "2026-10-21",
+    "score": 5,
+    "matched": [
+     "heterostructure",
+     "rashba",
+     "spin-orbit coupling"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
     "id": "doi:10.1063/5.0348118",
     "title": "Room-temperature multiferroicity in van der Waals Fe-doped SnSe semiconductors",
     "authors": "Muhammad Younis, Sichao Dai, Anwar Ali, Shuang Pan, Nayab Arif, Muhammad Ahsan Iqbal, Wei Tang, Yuexing Chen, Hui Fang, Francis Chi-Chung Ling, Shahid Atiq, Haixin Chang, Yu-Jia Zeng",
@@ -531,23 +926,6 @@
     ],
     "watched": [],
     "featured": false
-   },
-   {
-    "id": "doi:10.1103/sws2-p4tk",
-    "title": "Disorder effects on the anomalous Hall conductivity of a two-dimensional ferromagnetic Rashba model",
-    "authors": "Bing Liu, Hongchao Yang, Ye Yang, Xiaole Qiu, Lianzhen Cao, Weiwei Chen",
-    "abstract": "",
-    "source": "Physical Review B",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1103/sws2-p4tk",
-    "published": "2026-10-20",
-    "score": 4,
-    "matched": [
-     "rashba"
-    ],
-    "watched": [],
-    "featured": false
    }
   ],
   "Majorana and Topological Superconductivity": [
@@ -566,6 +944,59 @@
      "majorana",
      "topological superconduct",
      "parity"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.32767",
+    "title": "Majorana Edge-to-bound State Transition in Interferometric Superconductor Rings",
+    "authors": "Xiangyu Bi, Aoshen Yang, Hongzi Cao, Ganyu Chen, Yuqiang Fang, Zeya Li, Qizheng Sun, Junwei Huang, Da Wang, Fuqiang Huang, Toshiya Ideue, Qianghua Wang, Yoshihiro Iwasa, Hongtao Yuan",
+    "abstract": "Manipulating flux quanta in topological superconductors is central to vortex braiding in quantum computing. Their interferometric superconducting rings can host either topologically protected edge states with fluxes confined inside the central hollow area or vortex bound states in flux cores at the annulus walls. Here we demonstrate a strategy to drive topological edge states into vortex bound states by tuning the relative scale of vortex size and annulus width in nano-ring interferometric device on 2M-WS$_2$ topological superconductor. Near its superconducting transition where the coherence length exceeds the annulus width, Little-Parks oscillations exhibit expected periods for flux bundles in ring-center, consistent with edge states residing at inner and outer rims of the annulus. Upon cooling, where the coherence length shrinks below the annulus width, the unexpectedly increased oscillation period reflects multiple fluxes distributed along annulus region in flux necklace configuration, implying a transition from extended edge states to localized vortex bound states. Ginzburg-Landau simulations and local density-of-states calculations with Bogoliubov-de Gennes equations reveal that large values for both Ginzburg-Landau parameter and flux-pinning energy are vital for such a transition. Our findings provide a novel strategy for understanding flux manipulation towards flux braiding and topological quantum computing.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.32767v1",
+    "published": "2026-10-23",
+    "score": 12,
+    "matched": [
+     "majorana",
+     "topological superconduct"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.29446",
+    "title": "Suppressing Majorana Hybridization in Atomically Assembled Cr Chains on Bi2Pd",
+    "authors": "Jinkyung Kim, Piotr Kot, Ryo Ogawa, Atustaka Maeda, Andreas J. Heinrich, Nicolas Lorente, Deung-Jang Choi",
+    "abstract": "Magnetic-atom chains on superconductors can host Majorana zero modes, but in finite chains the two end modes generally hibridize and split away from zero energy. We show that Cr chains assembled atom-by-atom on the Bi-terminated surface of Bi2Pd enter a short-localization-length Shiba chain regime wthat strongly suppreesses this finite-size hybridization. Scanning tunneling spectroscopy reveals a chaing-leght-driven closing and reopening of the in-gap spectrum, followed by zero-bias modes localized at the chains ends. Green-function calculations reproduce the evolution and show an exchange of electorn-holec haracter across the transition. From the residual splitting we extract a localization length of about three atomic sites, explaining the stability of the zero-energy modes in experimentally accessible chains.",
+    "source": "arXiv",
+    "category": "cond-mat.supr-con",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.29446v1",
+    "published": "2026-10-21",
+    "score": 10,
+    "matched": [
+     "majorana",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/r775-vl18",
+    "title": "Strong zero modes in random Ising-Majorana chains",
+    "authors": "Saurav Kantha, Nicolas Laflorencie",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/r775-vl18",
+    "published": "2026-10-26",
+    "score": 8,
+    "matched": [
+     "majorana"
     ],
     "watched": [],
     "featured": true
@@ -603,9 +1034,83 @@
     ],
     "watched": [],
     "featured": true
+   },
+   {
+    "id": "arxiv:2610.30502",
+    "title": "Chiral Cavity Vacua as Local Generators and Probes of Non-Abelian Kitaev Topology",
+    "authors": "Yu Zhang",
+    "abstract": "We show how a gyrotropic cavity vacuum generates, probes, and spatially programs non-Abelian topology in the Kitaev honeycomb model. Gauge-consistent virtual-photon elimination produces a universal helicity-odd interaction $\\mathrm{i}[P_x,P_y]$ alongside same-order even dressing. For the leading bond polarization, this commutator is exactly the Kitaev three-spin mass. Mode normalization imposes a thermodynamic constraint: one extended normalized mode gives a local mass that vanishes with sample area, whereas a localized mode writes a finite topological island and a finite mode density enables a bulk mass. The exact Majorana solution yields helicity-reversed Chern gaps and edge propagation, while integrated circular dichroism exactly measures the mass generator, $\\langle\\mathrm{i}[P_x,P_y]\\rangle=-\\sqrt3p^2\\langle O_3\\rangle$. Real-space calculations reveal a non-Abelian island and a helicity wall with two co-propagating Majorana modes. Uniform helicity reversal is a Dirac-mass quench with $n_{\\rm ex}\\propto\u03c4_Q^{-1}$, whereas moving a wall localizes the gap closing. The equilibrium vacuum kernel contains sum-frequency rather than resonant denominators. These results establish distinct criteria for local and bulk cavity-induced topology.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.30502v1",
+    "published": "2026-10-21",
+    "score": 4,
+    "matched": [
+     "majorana"
+    ],
+    "watched": [],
+    "featured": false
    }
   ],
   "Altermagnets and Novel Heterostructures": [
+   {
+    "id": "arxiv:2610.32261",
+    "title": "Intrinsic Raman Modes and Crystal Symmetry of Altermagnetic $\u03b1$-MnTe",
+    "authors": "Yunpeng Cui, Shuai Zhang, Jia-Liang Xie, Jinxuan Liang, Hao Lin, Miao Qin, Jiawei Shao, Gongling Chen, Yidian Li, Yixuan Luo, Deng Hu, Bingru Lu, Hao Li, Xiang Li, Tiantian Liu, Haodong Yu, Hongyun Zhang, Shuyun Zhou, Zhiwei Wang, Yanfeng Guo, Tiantian Zhang, Miao-Ling Lin, Ping-Heng Tan, Feng Jin, Luyi Yang",
+    "abstract": "Crystal symmetry governs the physical properties of materials and provides the framework for interpreting their microscopic excitations and macroscopic responses. In altermagnets, the crystal symmetries that relate opposite-spin sublattices give rise to momentum-dependent spin splitting despite compensated magnetization. Determining the real crystal symmetry is therefore essential for understanding the intrinsic electronic and magnetic properties. For the altermagnetic semiconductor $\u03b1$-MnTe, conflicting Raman assignments have left both its intrinsic lattice excitations and its crystal symmetry unresolved. Here we combine high-resolution Raman and second-harmonic generation (SHG) spectroscopy with first-principles calculations to distinguish intrinsic lattice excitations from Te-derived spectral contributions and to examine bulk inversion symmetry of $\u03b1$-MnTe. We show that several prominent Raman features previously assigned to $\u03b1$-MnTe instead originate from segregated Te clusters or precipitates. The remaining intrinsic Raman response consists of a single Raman-active mode assigned to the calculated $E_{2g}$ phonon, consistent with the centrosymmetric $D_{6h}$ symmetry. The SHG response agrees with surface electric-dipole and bulk electric-quadrupole contributions expected for a centrosymmetric $D_{6h}$ crystal, supporting the preservation of bulk inversion symmetry in $\u03b1$-MnTe. Our findings revise the Raman assignments in $\u03b1$-MnTe and provide a basis for interpreting its altermagnetic properties within the appropriate crystal-symmetry framework.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.32261v1",
+    "published": "2026-10-23",
+    "score": 24,
+    "matched": [
+     "altermagnet",
+     "mnte",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.27173",
+    "title": "Ballistic transport and crystallographic control in altermagnetic quantum rings",
+    "authors": "Edilberto O. Silva",
+    "abstract": "We study coherent two-terminal transport through a finite-width $d$-wave altermagnetic quantum ring with nonmagnetic leads. A confined Aharonov--Bohm flux remains exactly $h/e$ periodic and, in the symmetric one-mode geometry, produces an exact half-flux transmission zero. A perpendicular field shifts the interference pattern according to an effective area $A_{\\rm eff}=1.0342\\,\u03c0r_0^2$ and the altermagnetic splitting resolves the common zero into nearby spin-dependent nodes. Rotating the crystal reverses the transmitted spin, whereas the mirror orientation $\u03b8_A=\u03c0/4$ is exactly spin degenerate. For a $50$~nm reference ring, sub-tesla fields yield windows with $|P_T|>0.99$, the most accessible of which requires a uniform field alone and no confined flux. Finite-bias, thermal, disorder, Zeeman, and spin-conserving voltage-probe calculations show that the polarization is appreciably more stable than individual coherent-resonance amplitudes. These results identify interference-node positions, flux periodicity, and crystal-controlled spin polarization as experimentally useful signatures of an altermagnetic mesoscopic interferometer.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.27173v1",
+    "published": "2026-10-19",
+    "score": 18,
+    "matched": [
+     "altermagnet",
+     "altermagnetic",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.30536",
+    "title": "Finite-width altermagnetic quantum rings: angular-channel hybridization and Aharonov--Bohm physics",
+    "authors": "Edilberto O. Silva",
+    "abstract": "We study a finite-width two-dimensional quantum ring with a quadratic $d$-wave altermagnetic term, Tan--Inkson confinement, a perpendicular magnetic field, and independently tunable Aharonov--Bohm (AB) flux. The altermagnetic interaction mixes $m$ and $m\\pm2$ angular channels while preserving their parity. Circular symmetry renders the crystal orientation spectrally irrelevant and makes the two spin blocks exactly isospectral. The resulting same-parity anticrossings are resolved at low filling, and multichannel mixing is found near the Fermi level of highly occupied rings. Independent converged calculations for $N_e=1400$ and $1800$ establish the reconstructed Fermi edge and magnetic response in a finite field window and the persistent current over a full AB flux period. The analytic conventional reference separates radial-subband depopulation (dHvA-type cycles) from finer finite-ring shell oscillations; we do not assign a global Fourier spectrum to unverified altermagnetic field scans. The few-electron thermal response is obtained from an exact fixed-particle-number canonical partition function, avoiding finite-system errors of a fixed-mean-number approximation. The circular model supports an equilibrium charge current but no persistent spin current.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.30536v1",
+    "published": "2026-10-21",
+    "score": 17,
+    "matched": [
+     "parity",
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
    {
     "id": "doi:10.1103/t64v-c4w1",
     "title": "Orbital-competition mediated interlayer coupling in bilayer altermagnetic V 2 S 2 O",
@@ -643,6 +1148,25 @@
     "featured": true
    },
    {
+    "id": "arxiv:2610.31732",
+    "title": "Altermagnetism in Folded Iron Chain Systems",
+    "authors": "Ling-Fang Lin, Yang Zhang, Satoshi Okamoto, Adriana Moreo, Lun-Hui Hu, Elbio Dagotto",
+    "abstract": "Altermagnetism, a moment-compensated magnetism with momentum-dependent spin splitting, has so far been realized primarily in N\u00e9el-type antiferromagnets. Here, we demonstrate altermagnetism in folded iron-chain systems with block-type magnetic order (e.g., $\\uparrow \\uparrow \\downarrow \\downarrow$). In the strictly one-dimensional (1D) case, altermagnetism is forbidden by the $[C_2||{\\cal T}]$ symmetry, but it can emerge when such chains are stacked into a quasi-1D array. To generate altermagnetic spin splitting via this chain-stacking mechanism, two essential ingredients are required: a block-type spin order that spontaneously breaks the combined parity-time reversal symmetry, and finite inter-chain hopping. Using first-principles calculations, we identify the K$_3$Fe$_2$Se$_4$ family as a promising platform that realizes this mechanism, hosting a $d$-wave altermagnet even without lattice $C_{4}$ symmetry. Moreover, owing to its lower symmetry, the block-type folded chain exhibits an isotropic altermagnetic spin splitting, which may manifest as an altermagnetic wrapping effect. Our findings unify real-space block magnetism and reciprocal-space altermagnetism, establishing folded iron chains as a tunable platform for zero-moment spintronic applications.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.31732v1",
+    "published": "2026-10-22",
+    "score": 13,
+    "matched": [
+     "parity",
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1021/acs.nanolett.6c03208",
     "title": "Ultrafast Mimic of Spin Hall Effect in Altermagnets",
     "authors": "Ruikai Wu, Deepika Gill, Wenhan Chen, Peter Elliott, Sangeeta Sharma, Sam Shallcross",
@@ -661,6 +1185,43 @@
     "featured": true
    },
    {
+    "id": "arxiv:2610.30929",
+    "title": "Piezo-Kerr effect in altermagnets and noncollinear antiferromagnets",
+    "authors": "Yuqi Liu, Qiu-Shi Huang, Xinfeng Chen, Yilin Han, Run-Wu Zhang, Zhi-Ming Yu, Yugui Yao",
+    "abstract": "Symmetry is usually viewed as a constraint on physical responses, but it can also be used to design the fields that control them. Here, we adopt the representation-matching principle used to identify conjugate fields of order parameters and apply it to response tensors. A linear coupling, the key ingredient for sign-switching control, is symmetry-allowed when a component (or a combination of components) of the control field and the selected response component share the same irreducible representation of the magnetic point group (MPG) of the system. Applied to the magneto-optical Kerr effect, this principle yields a piezo-Kerr effect, in which specific strain combinations activate a Kerr response forbidden in the unstrained state. Enumerating all 122 MPGs, we identify 16 groups in which the unstrained Kerr response is forbidden while a linear strain-induced contribution is allowed. These groups are realized by altermagnets and noncollinear antiferromagnets with symmetry-enforced vanishing net magnetization. The active strain channels and the associated first-order sign reversals follow directly from symmetry. First-principles calculations for bulk MnTe$_{2}$ and CoF$_{2}$, and Cr$_{2}$Se$_{2}$O and Cr$_{2}$Te$_{2}$O monolayers confirm these predictions. In these materials, the Kerr rotation vanishes without strain, whereas 0.5-3% strain produces rotations ranging from tens to hundreds of millidegrees, and reversing the matched strain channel reverses the Kerr sign. These results establish a general route to large and switchable Kerr responses emerging from symmetry-forbidden states in compensated magnets.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.30929v1",
+    "published": "2026-10-22",
+    "score": 12,
+    "matched": [
+     "altermagnet",
+     "mnte"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2610.30371",
+    "title": "Emergent altermagnetism in (LaVO$_3$)$_n$/(LaNiO$_3$)$_m$ superlattices from interfacial charge transfer and octahedral tilts",
+    "authors": "Gustavo H. Cassemiro, Walber H. Brito",
+    "abstract": "Using first-principles calculations, we show that altermagnetism emerges in (LaVO$_3$)$_n$/(LaNiO$_3$)$_m$ superlattices, with $(n,m) = (1,1), (2,2)$ and $(2,4)$, from the interplay of interfacial charge transfer and octahedral tilts. Charge transfer drives the system towards the V$^{4+}$ and Ni$^{2+}$ configuration, turning the otherwise paramagnetic nickelate layers into a magnetically active sublattice. The resulting $C$-type antiferromagnetic order, combined with $a^-b^+c^-$ or $a^-b^-c^-$ octahedral tilts, links opposite-spin sublattices only through nonsymmorphic operations, yielding a $d$-wave spin splitting without spin-orbit coupling. Within DFT+U, the splitting reaches 118 meV in the insulating (LVO)$_1$/(LNO)$_1$ superlattice, about twice that calculated for bulk LaVO$_3$, and decreases as the nickelate layers become thicker. Our findings indicate that this splitting is hosted by both the V and Ni sublattices, with nearly half of its weight on oxygen $2p$ states through $p$-$d$ covalency. Interfacial charge transfer thus emerges as a \\textit{design} principle for engineering altermagnetism in oxide heterostructures.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.30371v1",
+    "published": "2026-10-21",
+    "score": 10,
+    "matched": [
+     "heterostructure",
+     "spin-orbit coupling",
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1038/s41567-026-03495-x",
     "title": "A simple twist to altermagnetism",
     "authors": "Yingying Zhang, Cheng Song",
@@ -669,6 +1230,40 @@
     "category": "",
     "kind": "journal",
     "url": "https://doi.org/10.1038/s41567-026-03495-x",
+    "published": "2026-10-26",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/6lrn-4py1",
+    "title": "X-ray spectroscopic responses to magnetoelastic symmetry breaking in altermagnets",
+    "authors": "N. Sasabe, Y. Ishii, H. Koizumi, Y. Yamasaki",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/6lrn-4py1",
+    "published": "2026-10-26",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/n78v-py2j",
+    "title": "Noise spectroscopy of insulating and itinerant altermagnets",
+    "authors": "Lucas V. Pupim, Mathias S. Scheurer",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/n78v-py2j",
     "published": "2026-10-26",
     "score": 8,
     "matched": [
@@ -780,6 +1375,24 @@
     "featured": true
    },
    {
+    "id": "arxiv:2610.30733",
+    "title": "Ferroelastic Reversal Magnon Thermal Hall Effect in a Fully Compensated Ferrimagnet",
+    "authors": "Yingxi Bai, Zihan Chen, Chengwang Niu, Ming Yang",
+    "abstract": "Magnons offer a charge-neutral channel for spin and heat transport, yet reversible and nonvolatile control of their thermal Hall response poses a fundamental challenge in systems with zero net magnetization. Here, we establish ferroelastic switching as an effective route to manipulate magnonic transverse responses in fully compensated ferrimagnets. A minimal Heisenberg-Dzyaloshinskii-Moriya model reveals that ferroelastic switching can re-orientate the lattice anisotropy, which reconstructs the chirality-resolved magnon bands and Berry curvature distribution. Consequently, the two orthogonal fully compensated ferrimagnetic variants related by [C2||C4z] exhibit magnon thermal Hall responses with opposite signs, whereas the response vanishes in the intermediate altermagnetic phase. First-principles calculations further identify monolayer V2SSe as a promising material candidate for realizing the proposed ferroelastic control of transverse magnon transport. Remarkably, ferroelastic switching drives a dual magnonic-electronic band reconstruction, enabling nonvolatile reversal of the magnon thermal Hall effect while producing anisotropic orbital Hall responses and distinct magneto-optical spectra as complementary transport and optical fingerprints. Our findings establish ferroelasticity as an effective route to nonvolatile magnon control and multichannel state identification in zero net magnetization systems.",
+    "source": "arXiv",
+    "category": "cond-mat.mes-hall",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2610.30733v1",
+    "published": "2026-10-22",
+    "score": 8,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1103/4mcl-jtty",
     "title": "Electrical injection and control of vector spin flow in altermagnets",
     "authors": "Yanmeng Lei, Rui-Chun Xiao, Weiwei Lin, Tao Yu",
@@ -795,75 +1408,6 @@
     ],
     "watched": [],
     "featured": true
-   },
-   {
-    "id": "doi:10.1103/38sm-tbwf",
-    "title": "Correlation-driven metal-insulator transition in a d -wave altermagnet",
-    "authors": "Santhosh Kannan, Jainam Savla, Madhuparna Karmakar",
-    "abstract": "",
-    "source": "Physical Review B",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1103/38sm-tbwf",
-    "published": "2026-10-21",
-    "score": 8,
-    "matched": [
-     "altermagnet"
-    ],
-    "watched": [],
-    "featured": true
-   },
-   {
-    "id": "doi:10.1103/sqws-q32r",
-    "title": "Magnetic circular dichroism of terahertz modes and selection rules of Raman-active optical phonons in the polar altermagnet candidate Mn 2 Mo 3 O 8",
-    "authors": "F. Schilberth, K. Vasin, M. Knauft, M. Kond\u00e1kor, M. Vuckovic, N. Herrmann, K. Penc, M. Minola, B. Keimer, V. A. Martinez, K. Panda, A. A. Sirenko, L. Prodan, V. Tsurkan, A. A. Tsirlin, I. K\u00e9zsm\u00e1rki, J. Deisenhofer",
-    "abstract": "",
-    "source": "Physical Review B",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1103/sqws-q32r",
-    "published": "2026-10-21",
-    "score": 8,
-    "matched": [
-     "altermagnet"
-    ],
-    "watched": [],
-    "featured": true
-   },
-   {
-    "id": "doi:10.1103/7zl4-35wd",
-    "title": "Exotic superconducting states in altermagnets",
-    "authors": "Kirill Parshukov, Andreas P. Schnyder",
-    "abstract": "",
-    "source": "Physical Review B",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1103/7zl4-35wd",
-    "published": "2026-10-20",
-    "score": 8,
-    "matched": [
-     "altermagnet"
-    ],
-    "watched": [],
-    "featured": true
-   },
-   {
-    "id": "doi:10.1063/5.0347746",
-    "title": "Optical signature of bias-induced carrier injection in a WSe2/MoS2 heterostructure diode",
-    "authors": "Yasuyuki Hirata, Hibiki Kinpara, Shinya Ohno, Yoshihiro Miyauchi",
-    "abstract": "We investigate the bias-dependent photoluminescence (PL) response of a WSe2/MoS2 heterostructure diode. Under forward bias, trion-related emission in WSe2 is markedly enhanced, whereas reverse bias produces minimal spectral changes. This asymmetric response cannot be explained by electric-field effects alone and instead reflects carrier injection at the functional interface. These results demonstrate that PL provides a direct optical probe of carrier injection in an operating van der Waals heterostructure. More broadly, this approach establishes spatially resolved PL spectroscopy as a versatile tool for pinpointing the interfaces governing device operation in van der Waals heterostructures.",
-    "source": "Applied Physics Letters",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1063/5.0347746",
-    "published": "2026-10-19",
-    "score": 6,
-    "matched": [
-     "heterostructure",
-     "biAs"
-    ],
-    "watched": [],
-    "featured": false
    }
   ]
  }
