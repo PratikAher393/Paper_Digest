@@ -909,20 +909,18 @@
     "featured": false
    },
    {
-    "id": "doi:10.1038/s41467-026-78016-8",
-    "title": "Giant orbital Zeeman effects in a magnetic topological van der Waals interphase",
-    "authors": "Tobias Wichmann, Mirco Sastges, Keda Jin, Jose Martinez-Castro, Tom G. Saunderson, Dongwook Go, Honey Boban, Samir Lounis, Lukasz Plucinski, Markus Ternes, Yuriy Mokrousov, F. Stefan Tautz, Felix L\u00fcpke",
-    "abstract": "Van der Waals (vdW) heterostructures allow the engineering of magnetic and electronic properties via interfacial orbital hybridization and charge transfer. The resulting electric fields can give rise to Rashba spin-orbit coupling and Dzyaloshinskii-Moriya interactions, which may stabilize novel two-dimensional magnetic phases. While such emergent magnetic \u2018interphases\u2019 may offer a promising platform for spin-based electronics, direct spectroscopic evidence for them is still lacking. Here, we report electric-field tunable Zeeman effects with Land\u00e9 g -factors up to \u2248 230 at the interface of graphene and the vdW ferromagnet Fe 3 GeTe 2 . They arise from an interplay of local-moment canting and the itinerant orbital moments of Fe 3 GeTe 2 , producing a giant asymmetric level splitting. Exploiting the inelastic phonon gap of graphene, scanning tunneling spectroscopy allows us to access the buried interface properties, and quantify Faraday-like screening. Our findings provide new insights and opportunities for electrically controlled interface magnetism, e.g. for spintronics and orbitronics devices.",
-    "source": "Nature Communications",
+    "id": "doi:10.1103/vk31-qq46",
+    "title": "Band-selective Rashba and Ising spin-singlet pairings in two-dimensional IrTe 2",
+    "authors": "Kunal Dutta, Rajesh O. Sharma, Shreya Das, Samir Rom, Indra Dasgupta, Tanmoy Das, Tanusri Saha-Dasgupta",
+    "abstract": "",
+    "source": "Physical Review B",
     "category": "",
     "kind": "journal",
-    "url": "https://doi.org/10.1038/s41467-026-78016-8",
-    "published": "2026-10-23",
+    "url": "https://doi.org/10.1103/vk31-qq46",
+    "published": "2026-10-26",
     "score": 4,
     "matched": [
-     "heterostructure",
-     "rashba",
-     "spin-orbit coupling"
+     "rashba"
     ],
     "watched": [],
     "featured": false
