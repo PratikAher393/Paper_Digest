@@ -1,7 +1,7 @@
 {
  "date": "2026-11-02",
  "period": "2026-10-26 to 2026-11-02",
- "total": 72,
+ "total": 74,
  "topic_order": [
   "MBE Growth of Superconductors",
   "Superconductor-Semiconductor Interfaces",
@@ -506,6 +506,24 @@
     "featured": true
    },
    {
+    "id": "doi:10.1103/pspn-zpf3",
+    "title": "Multiple Andreev reflection spectroscopy of spin-resolved proximity states",
+    "authors": "A. A. Golubov, M. Yu. Kupriyanov",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/pspn-zpf3",
+    "published": "2026-11-02",
+    "score": 14,
+    "matched": [
+     "andreev reflection",
+     "multiple andreev reflection"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "arxiv:2610.40104",
     "title": "Continuous tuning of quantum critical behavior in hybrid Josephson junction arrays",
     "authors": "E. Fugl, L. L. Olsen, S. Sasmal, M. Efthymiou-Tsironi, G. Nagda, F. Krizek, L. Casparis, S. Vaitiek\u0117nas",
@@ -799,6 +817,24 @@
      "majorana",
      "topological qubit",
      "parity"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/12cp-xlkb",
+    "title": "Avoiding dilution: Using diffusion and vision transformers to resolve Majorana features in nanowires at high temperature",
+    "authors": "Jacob R. Taylor, Haining Pan, Jay D. Sau, Sankar Das Sarma",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/12cp-xlkb",
+    "published": "2026-11-02",
+    "score": 12,
+    "matched": [
+     "nanowire",
+     "majorana"
     ],
     "watched": [],
     "featured": true
@@ -1146,6 +1182,60 @@
     "featured": true
    },
    {
+    "id": "doi:10.1103/m7pf-ycmc",
+    "title": "Disentangling anomalous Hall effect mechanisms and extra symmetry protection in altermagnetic systems",
+    "authors": "Yuansheng Bu, Ziyin Song, Zhong Fang, Quansheng Wu, Hongming Weng",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/m7pf-ycmc",
+    "published": "2026-11-02",
+    "score": 16,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/wzx9-58gr",
+    "title": "Spin-polarized Josephson current induced by inhomogeneous altermagnetic interlayers",
+    "authors": "Wenjun Zhao, Yuri Fukaya, Pablo Burset, Jorge Cayao, Yukio Tanaka, Bo Lu",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/wzx9-58gr",
+    "published": "2026-11-02",
+    "score": 16,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/rgzl-5kpz",
+    "title": "Altermagnetic-type noncollinear magnets on the maple leaf lattice",
+    "authors": "Pratyay Ghosh, Ronny Thomale",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/rgzl-5kpz",
+    "published": "2026-11-02",
+    "score": 16,
+    "matched": [
+     "altermagnet",
+     "altermagnetic"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1038/s41563-026-02786-1",
     "title": "Altermagnetic signatures and topological textures in ultrathin multiferroic BiFeO3",
     "authors": "Geo Fratian, Maya Ramesh, Xinyan Li, Evangelos Golias, Yousra Nahas, Sebastian Maria Ulrich Schultheis, Julian Skolaut, Marti Checa, Arundhati Ghosal, Evan Krysko, Paul Malinowski, Brendan D. Faeth, Jan Priessnitz, F. C. Fobasso Mbognou, Atsushi Hariki, Kosuke Sakurai, Mizuki Furo, Shashank Kumar Ojha, Morgan Congdon, Shiyu Zhou, Alexander Qualls, Kai Litzius, Christoph Klewe, Peter Meisenheimer, Jan Kune\u0161, Kyle Shen, Laurent Bellaiche, Libor \u0160mejkal, Darrell G. Schlom, Yimo Han, Sergei Prokhorenko, Ramamoorthy Ramesh, Paul Stevenson, Angela Wittmann, Lucas Caretta",
@@ -1286,61 +1376,6 @@
     "matched": [
      "altermagnet",
      "altermagnetic"
-    ],
-    "watched": [],
-    "featured": true
-   },
-   {
-    "id": "arxiv:2610.35238",
-    "title": "Flexural Altermagnetism",
-    "authors": "Songbo Li, Jinxiong Jia, Zeyu Li, Xudong Zhu, Jiaqi An, Feitong Chu, Songbo Zhang, Wenguang Zhu, Hualing Zeng, Zhenhua Qiao",
-    "abstract": "We establish flexural deformation as a versatile route for engineering altermagnetism in two-dimensional collinear antiferromagnets. By tailoring the flexure, we selectively break different symmetries to realize altermagnetic states with distinct wave symmetries and reverse their spin splitting. A tight-binding model and first-principles calculations for monolayer MnPS3 demonstrate d- and i-wave states and a switchable transverse spin current in the d-wave state.",
-    "source": "arXiv",
-    "category": "cond-mat.mtrl-sci",
-    "kind": "arxiv",
-    "url": "https://arxiv.org/abs/2610.35238v1",
-    "published": "2026-10-26",
-    "score": 12,
-    "matched": [
-     "altermagnet",
-     "altermagnetic"
-    ],
-    "watched": [],
-    "featured": true
-   },
-   {
-    "id": "doi:10.1063/5.0350586",
-    "title": "Modulated exchange bias and antisymmetric magnetoresistance at a spin\u2013flop coupled van der Waals interface of FeTe/Fe3GeTe2",
-    "authors": "Wei Jiang, Qian Chen, Xingze Dai, Liang He, Wen Zhang, Zhaocong Huang, Ya Zhai",
-    "abstract": "We construct a van der Waals heterostructure of FeTe/Fe3GeTe2 (FGT), which presents a spin-orthogonal interface and exchange bias effect. The underlying mechanism of the observed bias field is ascribed to proximity-induced uncompensated interfacial moments in FeTe, which act as effective pinning centers for the magnetization reversal in Fe3GeTe2 and whose configuration is set by the field-cooling and subsequent field-sweep history. Field-sweep history plays an important role in this effect: in asymmetric field-sweep protocols, the bias field shows a clear and systematic trend with the reversing field and can be continuously tuned from \u2212300 to +200 Oe. Interestingly, the effect persists up to about 100 K, well above the N\u00e9el temperature of bulk FeTe (\u223c65 K). These are accompanied by antisymmetric magnetoresistance, arising from the asynchronous reversal of the FGT surface and bulk layers together with interfacial spin-dependent scattering. We attribute the above findings to a spin\u2013flop coupling arising from the FeTe/Fe3GeTe2 interface and the reconfigurable interfacial pinning moments under asymmetric field-sweep protocols. This work provides a new route toward van der Waals spintronic devices based on the reconfigurable exchange bias effect and multi-resistance state functionality.",
-    "source": "Applied Physics Letters",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1063/5.0350586",
-    "published": "2026-10-26",
-    "score": 9,
-    "matched": [
-     "heterostructure",
-     "resist",
-     "proximity-induced",
-     "biAs"
-    ],
-    "watched": [],
-    "featured": true
-   },
-   {
-    "id": "doi:10.1103/7dmx-h9h3",
-    "title": "Altermagnetism-induced higher-order topological Dirac semimetals in two-dimensional nonsymmorphic systems",
-    "authors": "Lizhou Liu, Cheng-Ming Miao, Ying-Tao Zhang, Qing-Feng Sun",
-    "abstract": "",
-    "source": "Physical Review B",
-    "category": "",
-    "kind": "journal",
-    "url": "https://doi.org/10.1103/7dmx-h9h3",
-    "published": "2026-11-02",
-    "score": 8,
-    "matched": [
-     "altermagnet"
     ],
     "watched": [],
     "featured": true
