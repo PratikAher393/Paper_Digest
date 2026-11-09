@@ -1,7 +1,7 @@
 {
  "date": "2026-11-09",
  "period": "2026-11-02 to 2026-11-09",
- "total": 70,
+ "total": 72,
  "topic_order": [
   "MBE Growth of Superconductors",
   "Superconductor-Semiconductor Interfaces",
@@ -597,6 +597,24 @@
     "featured": true
    },
    {
+    "id": "doi:10.1103/8qlv-xfzk",
+    "title": "Electrostatic tuning of critical currents in cadmium arsenide\u2013based Josephson junctions",
+    "authors": "Ethan M. Chen, Arman Rashidi, Sina Ahadi, Simon Munyan, Susanne Stemmer",
+    "abstract": "",
+    "source": "Physical Review Applied",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/8qlv-xfzk",
+    "published": "2026-11-09",
+    "score": 8,
+    "matched": [
+     "josephson junction",
+     "critical current"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "arxiv:2611.07330",
     "title": "Parity-Selective Quantum Interference in Unconventional Magnets",
     "authors": "Yiyuan Chen, Xiao-Bin Qiang, Hai-Zhou Lu, Congjun Wu, X. C. Xie",
@@ -720,6 +738,23 @@
     "matched": [
      "heterostructure",
      "proximity effect"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1103/wf5n-tsqy",
+    "title": "Simultaneous enhancement of Rashba and suppression of Dresselhaus spin-orbit fields by P composition grading in GaAs-based ferromagnetic semiconductors",
+    "authors": "Taehee Lee, K. Jana Apu, Xinyu Liu, Sara Bey, Badih Assaf, Maksym Zhukovskyi, Tatyana Orlova, Sanghoon Lee",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/wf5n-tsqy",
+    "published": "2026-11-09",
+    "score": 4,
+    "matched": [
+     "rashba"
     ],
     "watched": [],
     "featured": false
