@@ -1,0 +1,197 @@
+{
+ "date": "2026-11-10",
+ "period": "2026-11-03 to 2026-11-10",
+ "total": 10,
+ "topic_order": [
+  "MBE Growth of Superconductors",
+  "Superconductor-Semiconductor Interfaces",
+  "Nanowire Selective Area and Template-Assisted Growth",
+  "Nanofabrication and Cleanroom Processes",
+  "Germanium and Sn-Ge Epitaxy",
+  "Planar Josephson Junctions",
+  "Single Junction and Sn-Based Devices",
+  "Josephson and Proximity Effects",
+  "Majorana and Topological Superconductivity",
+  "Altermagnets and Novel Heterostructures",
+  "Watched authors"
+ ],
+ "topics": {
+  "Majorana and Topological Superconductivity": [
+   {
+    "id": "doi:10.1021/acs.nanolett.6c03255",
+    "title": "Emergent Giant Topological Hall Effect at the van der Waals Ferromagnet/Topological Insulator Interface",
+    "authors": "Devyani Sharma, Gagan Rastogi, Abhinab Mohapatra, R. Ganesan, P. S. Anil Kumar",
+    "abstract": "Two-dimensional (2D) van der Waals (vdW) magnet-based heterostructures provide a vital platform for manipulating magnetic ground states and hosting complex spin textures. The topological Hall effect (THE) is a powerful tool for probing these textures in such systems. However, achieving a sizable THE in 2D vdW ferromagnets remains challenging due to the absence of broken inversion symmetry and sufficiently strong spin\u2013orbit coupling (SOC). Here, we report an emergent giant topological Hall resistivity of 6.9 \u03bc\u03a9\u00b7cm at 10 K by interfacing the 2D ferromagnet Fe3GeTe2 (FGT) with the topological insulator BiSbTeSe2 (BSTS). Systematic temperature- and thickness-dependent studies suggest the origin of this pronounced signal to be the interfacial Dzyaloshinskii\u2013Moriya interaction (DMI). Furthermore, temperature-field mapping reveals the coexistence of two distinct phases that we identify as having opposite topological charge. Our results establish these vdW ferromagnet/topological insulator heterostructures as a robust platform for enhanced interfacial THE, opening new avenues for high-efficiency topological spintronics.",
+    "source": "Nano Letters",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1021/acs.nanolett.6c03255",
+    "published": "2026-11-07",
+    "score": 4,
+    "matched": [
+     "heterostructure",
+     "resist",
+     "topological insulator"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ],
+  "Altermagnets and Novel Heterostructures": [
+   {
+    "id": "doi:10.1103/l9tb-zgnm",
+    "title": "Orbital-splitter current in altermagnets",
+    "authors": "Koushik Ghorai, Sayan Sarkar, Amit Agarwal",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/l9tb-zgnm",
+    "published": "2026-11-05",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/h7kn-g9h2",
+    "title": "Resonant-impurity scanning tunneling spectroscopy in altermagnets: Dual Fano resonance and Landau quantization induced nodal spin contrast",
+    "authors": "Yuan Hong, Zhigang Wang, Zhen-Guo Fu, Feng Chi, Cong Wang, Wei Zhang, Ping Zhang",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/h7kn-g9h2",
+    "published": "2026-11-04",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/fnxh-h7vl",
+    "title": "Superconductivity as a probe of altermagnetism: Critical temperature, field, and current",
+    "authors": "A. A. Mazanik, Rodrigo de las Heras, F. S. Bergeret",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/fnxh-h7vl",
+    "published": "2026-11-04",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "doi:10.1103/jyns-5br2",
+    "title": "Kinetomagnetism and altermagnetism",
+    "authors": "Sang-Wook Cheong, Lei Han, Fei-Ting Huang",
+    "abstract": "",
+    "source": "Physical Review Materials",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/jyns-5br2",
+    "published": "2026-11-04",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
+    "id": "arxiv:2611.04617",
+    "title": "Spin-Density-Driven Hybrid Spin Splitting in Collinear Compensated Magnets",
+    "authors": "Peibo Xu, Yixuan Che, Yuxuan Li, Haifeng Lv, Xiaojun Wu, Jinlong Yang",
+    "abstract": "Nonrelativistic spin splitting in collinear compensated magnets is constrained by spin-group symmetry, with distinct alternating and Zeeman-type splitting typically associated with altermagnets and fully compensated ferrimagnets, respectively. From a spin-density perspective, we propose a class of hybrid compensated magnets in which alternating-like and Zeeman-type spin splitting coexist within a single collinear compensated state. Using a minimal two-sector model, we demonstrate that this coexistence arises from competition between directional sublattice dispersion and the sector-dependent energy biases arising from the same structural inequivalence. First-principles calculations provide a proof of concept in a crossed bilayer of unequal-width Janus graphene nanoribbons, where the structurally inequivalent ribbons retain approximately symmetry-related spin-density distributions. The valence and conduction sectors support direction-selective spin transport and energy-selective spin-polarized states, respectively. These results connect the spatial organization of spin density with the electronic response to structural inequivalence, providing a design principle for hybrid spin splitting in compensated magnets.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2611.04617v1",
+    "published": "2026-11-03",
+    "score": 6,
+    "matched": [
+     "altermagnet",
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1103/gg78-7mg3",
+    "title": "Finite-bias Coulomb blockade thermometry",
+    "authors": "Omid Sharifi Sedeh, Christian P. Scheller, Maryam Taghilou, Henok Weldeyesus, Taras Patlatiuk, Matthias Gramich, Jukka P. Pekola, Dominik M. Zumb\u00fchl",
+    "abstract": "",
+    "source": "Physical Review Letters",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/gg78-7mg3",
+    "published": "2026-11-09",
+    "score": 4,
+    "matched": [
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "arxiv:2611.07893",
+    "title": "Continuum Photonic Axion Insulators",
+    "authors": "Mario G. Silveirinha",
+    "abstract": "Here, I study the conditions for realizing an axion topology in a homogeneous inversion-symmetric electromagnetic continuum, in the absence of a crystalline lattice. I introduce a continuum inversion invariant expressed solely in terms of the spectral properties of the material response in the zero- and infinite-wave-vector limits. Surprisingly, it is found that standard gyrotropic-type material responses are strongly constrained and, under fairly general conditions, cannot open an axion gap within first-order perturbation theory. Based on an analogy between the effective response of crystalline photonic axion insulators and the optical response of centrosymmetric altermagnets, a class of spatially dispersive odd magnetoelectric couplings that can open an axion gap is identified. These findings suggest an interesting hierarchy of nonreciprocal mechanisms in electromagnetic continua: while uniform gyrotropy relates to Chern phases, odd magnetoelectric coupling relates to axion phases.",
+    "source": "arXiv",
+    "category": "cond-mat.mtrl-sci",
+    "kind": "arxiv",
+    "url": "https://arxiv.org/abs/2611.07893v1",
+    "published": "2026-11-05",
+    "score": 4,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1038/s41467-026-79258-2",
+    "title": "Wt1 splice isoforms bias lineage programmes during formative pluripotency",
+    "authors": "Luis Miguel Cerron-Alvan, Tatiana Firfa, Mattia Pitasi, Anne L\u00f6bker, Michelle Huth, Michael Bindl, Leonie Drakos, Triin Laos, Martin Leeb",
+    "abstract": "How transcriptional asymmetry arises in the epiblast before gastrulation remains a central question in mammalian development. Using a targeted CRISPRa screen, we identify Wt1 as a regulator of lineage-associated transcriptional programmes during formative pluripotency. Wt1 is transiently induced during formative pluripotency in vitro and in vivo, coincident with emerging lineage biases. Precocious Wt1 induction advances cells toward post-implantation identity, whereas Wt1 -deficient cells execute na\u00efve exit but show impaired acquisition of formative and lineage-associated programmes. WT1 binds active regulatory elements together with OTX2, OCT4 and FOXO1. Comparison of Wt1 splice isoforms identifies KTS splice status as the major determinant of divergent anterior/neuroectodermal and posterior/mesodermal transcriptional programmes in vitro. In the E5.5 epiblast, Wt1 expression and splice composition align with lineage-biased states, linking isoform usage to anterior bias in vivo. Isoform-dependent programmes are conserved in human pluripotent cells. These findings identify alternative splicing as a mechanism tuning lineage-associated transcriptional bias before gastrulation.",
+    "source": "Nature Communications",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1038/s41467-026-79258-2",
+    "published": "2026-11-04",
+    "score": 4,
+    "matched": [
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   },
+   {
+    "id": "doi:10.1103/qw3z-srd2",
+    "title": "Exponential size scaling of ultrafast all-optical switching reveals bias-fluctuation competition",
+    "authors": "Danny Petty Gweha Nyoma, Daniel Lacour, Michel Hehn, Gregory Malinowski, Eric E. Fullerton, St\u00e9phane Mangin, Francois Montaigne",
+    "abstract": "",
+    "source": "Physical Review Applied",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/qw3z-srd2",
+    "published": "2026-11-04",
+    "score": 4,
+    "matched": [
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ]
+ }
+}
