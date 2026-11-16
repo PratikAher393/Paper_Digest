@@ -1,7 +1,7 @@
 {
  "date": "2026-11-16",
  "period": "2026-11-09 to 2026-11-16",
- "total": 72,
+ "total": 73,
  "topic_order": [
   "MBE Growth of Superconductors",
   "Superconductor-Semiconductor Interfaces",
@@ -170,6 +170,23 @@
    }
   ],
   "Nanowire Selective Area and Template-Assisted Growth": [
+   {
+    "id": "doi:10.1103/yyld-pcdd",
+    "title": "Highly nonlinear I-V response in doped silicon-on-insulator devices: Working principle",
+    "authors": "Andrea Pulici, Gabriele Seguini, Fabiana Taglietti, Marco Fanciulli, Arka Bhattacharya, Matthias Auf der Maur, Michele Perego",
+    "abstract": "",
+    "source": "Physical Review Applied",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/yyld-pcdd",
+    "published": "2026-11-16",
+    "score": 6,
+    "matched": [
+     "silicon-on-insulator"
+    ],
+    "watched": [],
+    "featured": false
+   },
    {
     "id": "arxiv:2611.16071",
     "title": "Mapping the High-Field Response of Superconducting Nanowire Single-Photon Detectors",
@@ -1197,6 +1214,23 @@
     "featured": true
    },
    {
+    "id": "doi:10.1103/smwc-qymx",
+    "title": "Roughness-robust surface altermagnetism in \ud835\udcab \ud835\udcaf antiferromagnets",
+    "authors": "K. D. Belashchenko",
+    "abstract": "",
+    "source": "Physical Review B",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1103/smwc-qymx",
+    "published": "2026-11-16",
+    "score": 8,
+    "matched": [
+     "altermagnet"
+    ],
+    "watched": [],
+    "featured": true
+   },
+   {
     "id": "doi:10.1103/zhyr-jrf7",
     "title": "Manipulating anomalous transport via crystal symmetry in two-dimensional altermagnets",
     "authors": "Dan Li, Shuaiyu Wang, Jiabing Chen, Zeling Li, Chaoxi Cui, Lei Li, Lei Wang, Zhi-Ming Yu, Xiaodong Zhou, Xiao-Ping Li",
@@ -1348,24 +1382,6 @@
     ],
     "watched": [],
     "featured": true
-   },
-   {
-    "id": "arxiv:2611.14155",
-    "title": "End-state-assisted tunneling at a topological insulator STM tip",
-    "authors": "Rui Chen, Jie Zhou, Bin Zhou, Dong-Hui Xu",
-    "abstract": "Recent spin-sensitive scanning tunneling experiments with topological-insulator tips motivate a microscopic understanding of how tip geometry controls current delivery. We show that topological end states mediate resonant tunneling through the gap opened by interedge hybridization in a quantum spin Hall tip. An asymmetric termination gives oppositely spin-polarized helical paths unequal effective lengths and resonance widths. Within an independent-path description, their transmitted-current imbalance vanishes at a matched resonance and becomes finite away from it. Coupling these directional channels to a $d$-wave altermagnet yields a spin-dependent interference contrast. Hybridized end states along a stepped termination provide multiple tunneling resonances. Our results establish end-state-mediated tunneling as a transport mechanism for STM with strongly confined topological tips.",
-    "source": "arXiv",
-    "category": "cond-mat.mes-hall",
-    "kind": "arxiv",
-    "url": "https://arxiv.org/abs/2611.14155v1",
-    "published": "2026-11-10",
-    "score": 6,
-    "matched": [
-     "topological insulator",
-     "altermagnet"
-    ],
-    "watched": [],
-    "featured": false
    }
   ]
  }
