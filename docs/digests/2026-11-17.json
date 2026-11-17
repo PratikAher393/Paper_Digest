@@ -1,0 +1,39 @@
+{
+ "date": "2026-11-17",
+ "period": "2026-11-10 to 2026-11-17",
+ "total": 1,
+ "topic_order": [
+  "MBE Growth of Superconductors",
+  "Superconductor-Semiconductor Interfaces",
+  "Nanowire Selective Area and Template-Assisted Growth",
+  "Nanofabrication and Cleanroom Processes",
+  "Germanium and Sn-Ge Epitaxy",
+  "Planar Josephson Junctions",
+  "Single Junction and Sn-Based Devices",
+  "Josephson and Proximity Effects",
+  "Majorana and Topological Superconductivity",
+  "Altermagnets and Novel Heterostructures",
+  "Watched authors"
+ ],
+ "topics": {
+  "Altermagnets and Novel Heterostructures": [
+   {
+    "id": "doi:10.1063/5.0359245",
+    "title": "Uniaxial antiferroelectricity as the origin of wide-range DC-bias-induced permittivity enhancement in titanite-type oxides",
+    "authors": "Toshiya Uohashi, Yuto Ohara, Taro Kuwano, Hiroaki Takeda, Manabu Hagiwara, Akitoshi Nakano, Kazuhiko Deguchi, Hiroki Taniguchi",
+    "abstract": "Polycrystalline ceramics of titanite-type antiferroelectrics exhibit an unusual electric-field-induced enhancement of permittivity over a wide electric-field range, making them promising candidates for high-voltage capacitor applications. Despite this attractive dielectric response, its microscopic origin remains unclear. Here, we investigate the anisotropic dielectric and polarization responses of the prototypical titanite-type antiferroelectric CaTiSiO5 using single crystals with different crystallographic orientations. A pronounced dielectric anomaly at the antiferroelectric phase transition and a nonlinear D\u2013E response are observed exclusively along the one-dimensional TiO6 chains, whereas little dielectric anomaly and a nearly linear D\u2013E response are observed along directions perpendicular to the chains. These results demonstrate that the antiferroelectric response is essentially confined to the chain direction. Consequently, random grain orientations in polycrystalline ceramics produce a broad distribution of effective chain-parallel electric-field components for polarization flipping, naturally explaining the unsaturated double hysteresis and the wide-range electric-field-induced enhancement of permittivity. These findings establish uniaxial antiferroelectricity as a design principle for realizing broad electric-field-induced enhancement of permittivity in dielectric materials.",
+    "source": "Applied Physics Letters",
+    "category": "",
+    "kind": "journal",
+    "url": "https://doi.org/10.1063/5.0359245",
+    "published": "2026-11-16",
+    "score": 4,
+    "matched": [
+     "biAs"
+    ],
+    "watched": [],
+    "featured": false
+   }
+  ]
+ }
+}
